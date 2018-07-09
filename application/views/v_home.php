@@ -25,18 +25,18 @@
     <link rel="stylesheet"    href="<?php echo RUTA_CSS?>style.css?v=<?php echo time();?>">
 </head>
 <body>
-    <nav class="navbar navbar-default">
-        <div class="js-container">
-            <div class="navbar-header">
-                <a><img src="<?php echo RUTA_IMG?>logo/logo-hpe.svg"></a>
+    <div class="js-header">
+        <div class="js-header--container">
+            <div class="js-header--left">
+                <img class="logo-one" src="<?php echo RUTA_IMG?>logo/logo-hpe-negro.png">
+                <img class="logo-two" src="<?php echo RUTA_IMG?>logo/logo-hpe-blanco.png">
             </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <a><img src="<?php echo RUTA_IMG?>logo/logo-aruba.svg"></a>
-                </ul>
+            <div class="js-header--right">
+                <img class="logo-one" src="<?php echo RUTA_IMG?>logo/logo-aruba-negro.png">
+                <img class="logo-two" src="<?php echo RUTA_IMG?>logo/logo-aruba-blanco.png">
             </div>
         </div>
-    </nav>
+    </div>
     <section id="principal">
         <div class="video">
             <video autoplay loop muted>

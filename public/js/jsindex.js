@@ -211,9 +211,9 @@ function validateEmail(email){
 var $win = $(window);
 $win.scroll(function () {
 	if ($win.scrollTop() > 45) {
-		$("nav").addClass("navbarcolor");
+		$(".js-header").addClass("navbarcolor");
 	} else {
-		$("nav").removeClass("navbarcolor");
+		$(".js-header").removeClass("navbarcolor");
 	}
 });
 $('a.link[href^="#"]').click(function(e) {

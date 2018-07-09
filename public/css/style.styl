@@ -138,19 +138,29 @@ strong
 .js-height
 	height 100vh
 .js-header
-	flexCenter()
+	transitionAll()
 	position fixed
 	top 0
 	width 100%
 	background-color transparent
 	z-index 5
-	padding 15px 25px
+	padding 5px 25px
 	color #FFFFFF
+	height 75px
 	&.js-fixed
 		background-color $color
+	.js-header--container
+		flexCenter()
+		width 100%
+		max-width 1150px
+		margin auto
 	img
 		width 100%
-		max-width 200px
+		max-width 115px
+		position absolute
+		top 5px
+		&.logo-two
+			opacity 0
 	.js-header--left
 		flexCenter()
 		width 100%
@@ -357,35 +367,6 @@ footer
 	color #FFFFFF
 	p
 		font-size 14px
-/*BOOTSTRAP4*/
-.navbar-default
-	transitionAll()
-	margin 0
-	padding 10px
-	border none
-	border-radius 0
-	position fixed
-	width 100%
-	background-color #000000
-	z-index 10
-	.navbar-nav
-		&>li
-			&>a
-				color #FFFFFF !important
-				font-size 18px
-				background-color transparent !important
-.navbar-brand
-	padding 0
-	position relative
-	small
-		position absolute
-		right 0
-		margin-right -230px
-		margin-top -25px
-		color #FFFFFF
-	img
-		transitionMaxWidth()
-		max-width 200px
 .nav-tabs
 	border none
 	&>li
@@ -418,6 +399,11 @@ footer
 	ul
 		li
 			font-size 18px
+.js-nav
+	a
+		img
+			position absolute
+			max-width 125px
 .js-card
 	box-shadow 0 2px 5px rgba(0,0,0,0.16), 0 2px 5px rgba(0,0,0,0.23)
 	border-radius 5px
@@ -480,13 +466,15 @@ table
 	background-color #AAAAAA
 	border-radius 10px
 @media (min-width: 768px)
-	.navbar
+	.js-header
 		background-color transparent
 		&.navbarcolor
 			background-color #425563
-			.navbar-brand
-				img
-					max-width 200px
+			img
+				&.logo-one
+					opacity 0
+				&.logo-two
+					opacity 1
 	.navbar-brand
 		img
 			max-width 250px
