@@ -305,6 +305,28 @@ strong
 		font-weight 100
 	.mdl-checkbox__box-outline
 		border 2px solid #FFFFFF
+video
+	position absolute
+	top 50%
+	left 0
+	-webkit-transform translate( 0 , -50% )
+	transform translate( 0 , -50% )
+	min-height 100%
+	min-width 100%
+	z-index 0
+	overflow hidden
+	display block
+.video
+	&:AFTER
+		position absolute
+		content ''
+		top 0
+		right 0
+		left 0
+		z-index 2
+		background linear-gradient(#FFFFFF, transparent)
+		width 100%
+		height 200px
 .js-fondo
 	absolute()
 	background url(../img/fondo/fondo-home.jpg) no-repeat center center
@@ -378,6 +400,7 @@ footer
 	text-align center
 	color #FFFFFF
 	max-width 600px
+	z-index 1
 	h2
 		font-size 55px
 		line-height 55px

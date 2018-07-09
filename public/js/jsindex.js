@@ -28,29 +28,6 @@ function sendInformation(){
 	}
 	var seating 			 = $('#seating').val();
 	var shirt 				 = $('#shirt').val();
-	//Itinerary
-	var acknowledgement 	 = $('#acknowledgement').val();
-	var restrictions 		 = $('#restrictions').val();
-	var checkindate 		 = $('#checkindate').val();
-	var checkoutdate 		 = $('#checkoutdate').val();
-	var need 				 = $('#need').val();
-	var departureorigin 	 = $('#departureorigin').val();
-	var departuredestination = /*$('#departuredestination').val()*/'aa';//quitado
-	var departuredate 		 = $('#departuredate').val();
-	var departuretime 		 = $('#departuretime').val();
-	var returnorigin 		 = $('#returnorigin').val();
-	var returndestination 	 = /*$('#returndestination').val()*/'aa';
-	var returndate 			 = $('#returndate').val();
-	var returntime 			 = $('#returntime').val();
-	var preference1 		 = $('#preference1').val();
-	var rewards1 			 = $('#rewards1').val();
-	var preference2 		 = $('#preference2').val();
-	var rewards2 			 = $('#rewards2').val();
-	var preference3 		 = $('#preference3').val();
-	var rewards3 			 = $('#rewards3').val();
-	var confirmation 		 = /*$('#confirmation').val()*/'aa';//quitado
-	var modifidate 			 = /*$('#modifidate').val()*/'aa';//quitado
-	var cancellationdate 	 = /*$('#cancellationdate').val()*/'aa';//quitado
 	//Emergency Contact
 	var contact 			 = $('#contact').val();
 	var phone 				 = $('#phone').val();
@@ -143,60 +120,6 @@ function sendInformation(){
 		msj('error', 'T-shirt must be completed');
 		return;
 	}
-	//Itinerary
-	if(acknowledgement == null || acknowledgement == '') {
-		msj('error', 'Name acknowledgement must be completed');
-		return;
-	}
-	if(restrictions == null || restrictions == '') {
-		msj('error', 'Dietary restrictions must be completed');
-		return;
-	}
-	if(checkindate == null || checkindate == '') {
-		msj('error', 'Check-in must be completed');
-		return;
-	}
-	if(checkoutdate == null || checkoutdate == '') {
-		msj('error', 'Check-out must be completed');
-		return;
-	}
-	if(need == null || need == '') {
-		msj('error', 'Special needs must be completed');
-		return;
-	}
-	if(departureorigin == null || departureorigin == '') {
-		msj('error', 'Departure flight origin must be completed');
-		return;
-	}
-	// if(departuredestination == null) {
-	// 	msj('error', 'Departure flight destination must be completed');
-	// 	return;
-	// }
-	if(departuredate == null || departuredate == '') {
-		msj('error', 'Departure date must be completed');
-		return;
-	}
-	if(departuretime == null || departuretime == '') {
-		msj('error', 'Departure time must be completed');
-		return;
-	}
-	if(returnorigin == null || returnorigin == '') {
-		msj('error', 'Return flight origin must be completed');
-		return;
-	}
-	// if(returndestination == null) {
-	// 	msj('error', 'Return flight destination must be completed');
-	// 	return;
-	// }
-	if(returndate == null || returndate == '') {
-		msj('error', 'Return date must be completed');
-		return;
-	}
-	if(returntime == null || returntime == '') {
-		msj('error', 'Return time must be completed');
-		return;
-	}
-
 	//CONTINUA AQUI
 	//Contacto emergencia
 	if(contact == null || contact == '') {

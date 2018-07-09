@@ -87,6 +87,7 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 //	RECURSOS PUBLICOS
 defined('RUTA_CSS')     OR define('RUTA_CSS'    , 'http://'.(isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : null).'/SouthAfrica/public/css/');
 defined('RUTA_FONTS')   OR define('RUTA_FONTS'  , 'http://'.(isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : null).'/SouthAfrica/public/fonts/');
+defined('RUTA_VIDEO')   OR define('RUTA_VIDEO'  , 'http://'.(isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : null).'/SouthAfrica/public/video/');
 defined('RUTA_IMG')     OR define('RUTA_IMG'    , 'http://'.(isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : null).'/SouthAfrica/public/img/');
 defined('RUTA_JS')      OR define('RUTA_JS'     , 'http://'.(isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : null).'/SouthAfrica/public/js/');
 defined('RUTA_PLUGINS') OR define('RUTA_PLUGINS', 'http://'.(isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : null).'/SouthAfrica/public/plugins/');

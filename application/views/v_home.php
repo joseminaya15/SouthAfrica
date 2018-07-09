@@ -38,7 +38,12 @@
         </div>
     </nav>
     <section id="principal">
-        <div class="js-fondo"></div>
+        <div class="video">
+            <video autoplay loop muted>
+                <source src="<?php echo RUTA_VIDEO?>video.mp4" type="">
+            </video>
+        </div>
+        <!-- <div class="js-fondo"></div> -->
         <div class="js-container">
             <div class="js-home js-height js-flex">
                 <div class="js-contenido">
@@ -441,17 +446,9 @@
     <script src="<?php echo RUTA_JS?>jsindex.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>Utils.js?v=<?php echo time();?>"></script>
     <script type="text/javascript">
-        // initButtonCalendarDays('issuedate');
-        // initButtonCalendarDays('expiredate');
-        // initButtonCalendarDays('birthdate');
-        // initButtonCalendarDaysMinToday('checkindate');
-        // initButtonCalendarDaysMinToday('checkoutdate');
-        // initButtonCalendarDaysMinToday('departuredate');
-        // initButtonCalendarDaysMinToday('departuretime');
-        // initButtonCalendarDaysMinToday('returndate');
-        // initButtonCalendarDaysMinToday('returntime');
-        // initButtonCalendarDaysMinToday('returndate');
-        // initButtonCalendarDaysMinToday('returndate');
+        initButtonCalendarDays('issuedate');
+        initButtonCalendarDays('expiredate');
+        initButtonCalendarDays('birthdate');
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
             $('select').selectpicker('mobile');
         } else {
