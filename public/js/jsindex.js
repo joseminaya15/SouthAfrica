@@ -157,29 +157,6 @@ function sendInformation(){
 				asientoPrefere	: seating,
 				tallaPolo		: shirt,
 				//
-				reconocimiento	: acknowledgement,
-				restriccionDieta: restrictions,
-				checkInDate 	: checkindate,
-				checkOutDate 	: checkoutdate,
-				necesidadEspe	: need,
-				origenPartida	: departureorigin,
-				destinoPartida	: departuredestination,
-				diaVueloOrigen	: departuredate,
-				HoraVueloOrigen	: departuretime,
-				origenRetorno	: returnorigin,
-				destinoRetorno	: returndestination,
-				diaVueloRetorno	: returndate,
-				HoraVueloRetorno: returntime,
-				aerolinea1		: preference1,
-				codigoAero1		: rewards1,
-				aerolinea2		: preference2,
-				codigoAero2		: rewards2,
-				aerolinea3		: preference3,
-				codigoAero3		: rewards3,
-				confirmacion	: confirmation,
-				ultimoDiaModifica: modifidate,
-				ultimoDiaCancela: cancellationdate,
-				//
 				nombreContacto	: contact,
 				telefonoContac	: phone,
 				relacion		: relationship,
@@ -191,8 +168,9 @@ function sendInformation(){
 			data = JSON.parse(data);
 			if(data.error == 0){
 				$('.js-input').find('input').val('');
-				$('.js-select').find('select').val('0');
-				$('.js-select').find('select').selectpicker('refresh');
+				$('.js-input').find('select').val('0');
+				$('.js-input').find('select').selectpicker('refresh');
+				$('#confirmation').addClass('aparecer');
         	}else{
         		return;
         	}

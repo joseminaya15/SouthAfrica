@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible"  content="IE=edge">
     <meta name="viewport"               content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="description"            content="HPE Caribbean Executive Briefing - July 23-26th, 2018">
-    <meta name="keywords"               content="HPE Caribbean Executive Briefing">
+    <meta name="description"            content="HPE South Africa - September 6th-14th, 2018">
+    <meta name="keywords"               content="HPE South Africa">
     <meta name="robots"                 content="Index,Follow">
     <meta name="date"                   content="July 23, 2018"/>
     <meta name="language"               content="es">
     <meta name="theme-color"            content="#000000">
-    <title>HPE Caribbean ECB Palo Alto</title>
+    <title>HPE South Africa</title>
     <link rel="shortcut icon" href="<?php echo RUTA_IMG?>logo/favicon.ico">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>toaster/toastr.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>mdl/material.min.css?v=<?php echo time();?>">
@@ -251,141 +251,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="js-card panel panel-default">
-                    <div class="panel-heading" id="headingThree">
-                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Itinerary</a>
-                    </div>
-                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-6 col-md-4">
-                                    <div class="js-input">
-                                        <label for="text">Name acknowledgement</label>
-                                        <input type="text" id="acknowledgement" >
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-4">
-                                    <div class="js-input">
-                                        <label for="text">Dietary Restrictions</label>
-                                        <input type="text" id="restrictions" >
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-4">
-                                    <div class=" js-input">
-                                        <label for="text">Special Needs</label>
-                                        <input type="text" id="need" >
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-4">
-                                    <div class="js-input js-date js-flex">
-                                        <input class="js-disabled" type="text" id="checkindate" name="checkindate" maxlength="10" placeholder="Check-In date" value="" style="pointer-events: none">
-                                        <div class="js-icon">
-                                            <button type="button" class="mdl-button mdl-js-button mdl-button--icon">
-                                                <i class="mdi mdi-date_range"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-4">
-                                    <div class="js-input js-date js-flex">
-                                        <input class="js-disabled" type="text" id="checkoutdate" name="checkoutdate" maxlength="10" placeholder="Check-Out date" value="" style="pointer-events: none">
-                                        <div class="js-icon">
-                                            <button type="button" class="mdl-button mdl-js-button mdl-button--icon">
-                                                <i class="mdi mdi-date_range"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-4">
-                                     <div class=" js-input">
-                                        <label for="text">Departure Flight Origin</label>
-                                        <input type="text" id="departureorigin" >
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-4">
-                                    <div class="js-input js-date js-flex">
-                                        <input class="js-disabled" type="text" id="departuredate" name="departuredate" maxlength="10" placeholder="Departure Flight Date" value="" style="pointer-events: none">
-                                        <div class="js-icon">
-                                            <button type="button" class="mdl-button mdl-js-button mdl-button--icon">
-                                                <i class="mdi mdi-date_range"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-4">
-                                    <div class="js-input js-select">
-                                        <select name="departuretime" id="departuretime" title="Departure Flight Time"> 
-                                            <option value="morning">Morning</option>
-                                            <option value="afternoon">Afternon</option>
-                                            <option value="evening">Evening</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-4">
-                                    <div class=" js-input">
-                                        <label for="text">Return Flight Origin</label>
-                                        <input type="text" id="returnorigin" >
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-4">
-                                    <div class="js-input js-date js-flex">
-                                        <input class="js-disabled" type="text" id="returndate" name="returndate" maxlength="10" placeholder="Return Flight Date" value="" style="pointer-events: none">
-                                        <div class="js-icon">
-                                            <button type="button" class="mdl-button mdl-js-button mdl-button--icon">
-                                                <i class="mdi mdi-date_range"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-4">
-                                    <div class="js-input js-select">
-                                        <select name="returntime" id="returntime" title="Return Flight Time"> 
-                                            <option value="morning">Morning</option>
-                                            <option value="afternon">Afternon</option>
-                                            <option value="evening">Evening</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-4">
-                                    <div class=" js-input">
-                                        <label for="text">Airline Preference 1</label>
-                                        <input type="text" id="preference1" >
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-4">
-                                    <div class=" js-input">
-                                        <label for="text">Airline Rewards Code 1</label>
-                                        <input type="text" id="rewards1" >
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-4">
-                                    <div class=" js-input">
-                                        <label for="text">Airline Preference 2</label>
-                                        <input type="text" id="preference2" >
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-4">
-                                    <div class=" js-input">
-                                        <label for="text">Airline Rewards Code 2</label>
-                                        <input type="text" id="rewards2" >
-                                    </div>
-                                </div>
-                                <div class="col-xs col-sm-6 col-md-4">
-                                    <div class=" js-input">
-                                        <label for="text">Airline Preference 3</label>
-                                        <input type="text" id="preference3" >
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-4">
-                                    <div class=" js-input">
-                                        <label for="text">Airline Rewards Code 3</label>
-                                        <input type="text" id="rewards3" >
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
                 <div class="js-card panel panel-default">
                     <div class="panel-heading " id="headingFour">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Emergency Contact</a>
@@ -425,6 +290,11 @@
             <div class="js-section--button text-right">
                 <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="sendInformation()">Send</button>
             </div>
+            <div id="confirmation" class="js-confirmation">
+                <h2>Congratulations!</h2>
+                <p>We have received all your information to manage your prize. Shortly we will contact you for more details.</p>
+                <p>Prepare suitcases and enjoy the adventure!</p>
+            </div>
         </div>
     </section>
     <footer class="js-section">
@@ -441,7 +311,7 @@
     <script src="<?php echo RUTA_PLUGINS?>mdl/material.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>moment/moment.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>datetimepicker/js/bootstrap-material-datetimepicker.js?v=<?php echo time();?>"></script>
-    <script src="<?php echo RUTA_PLUGINS?>toaster/toastr.js?v=<?php echo time();?>"></script>
+    <script src="<?php echo RUTA_PLUGINS?>toaster/toastr.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>jsmenu.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>jsindex.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>Utils.js?v=<?php echo time();?>"></script>

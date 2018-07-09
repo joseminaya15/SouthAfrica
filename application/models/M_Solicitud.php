@@ -12,19 +12,11 @@ class M_solicitud extends  CI_Model{
             throw new Exception('Error al insertar');
             $data['error'] = EXIT_ERROR;
         }
-        /*echo $this->db->last_query();
-        exit;*/
         return array("error" => EXIT_SUCCESS, "msj" => MSJ_INS, "id_negocio" => $sql);
     }
-
-    function insertarDemasDatos($insertPersona, $tabla1, $insertItinerario, $tabla2, $insertContacto, $tabla3){
+    
+    function insertarDemasDatos($insertPersona, $tabla1, $insertContacto, $tabla3){
     	$this->db->insert($tabla1, $insertPersona);
-        $sql = $this->db->insert_id();
-        if($this->db->affected_rows() != 1) {
-            throw new Exception('Error al insertar');
-            $data['error'] = EXIT_ERROR;
-        }
-        $this->db->insert($tabla2, $insertItinerario);
         $sql = $this->db->insert_id();
         if($this->db->affected_rows() != 1) {
             throw new Exception('Error al insertar');
