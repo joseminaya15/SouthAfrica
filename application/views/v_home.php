@@ -52,7 +52,7 @@
                     <p>September 6th to 14th, 2018</p>
                     <div class="js-contenido__buttons">
                         <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">REGISTER HERE</a>
-                        <a href="#home" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button js-button--default">HOME</a>
+                        <a href="#home" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button js-button--default">INFORMATION</a>
                     </div>
                 </div>
             </div>
