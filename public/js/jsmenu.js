@@ -21,8 +21,9 @@ function initCalendarDays(id, currentDate){
         }
 	$("#"+id).bootstrapMaterialDatePicker({ 
 		weekStart : 0, 
-		date	: true, 
+		date	: true,
 		time	: false,
+		cancelText : 'Cancel',
 		currentDate : startDate,
 		format 	: 'DD/MM/YYYY'
 	});
@@ -58,8 +59,9 @@ function initCalendarDaysMinToday(id, currentDate, fecha){
 	$("#"+id).bootstrapMaterialDatePicker({ 
 		weekStart : 0, 
 		date	: true, 
-		time	: false, 
+		time	: false,
 		format 	: 'DD/MM/YYYY',
+		cancelText : 'Cancel',
 		currentDate : startDate,
 		minDate : (fecha == undefined) ? new Date() : fecha
 	});
@@ -95,8 +97,9 @@ function initCalendarDaysMaxToday(id, currentDate, fecha){
 	$("#"+id).bootstrapMaterialDatePicker({ 
 		weekStart : 0, 
 		date	: true, 
-		time	: false, 
+		time	: false,
 		format 	: 'DD/MM/YYYY',
+		cancelText : 'Cancel',
 		currentDate : startDate,
 		maxDate : (fecha == undefined) ? new Date() : fecha
 	});
