@@ -4,10 +4,10 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible"  content="IE=edge">
     <meta name="viewport"               content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="description"            content="ECB Palo Alto">
-    <meta name="keywords"               content="ECB Palo Alto">
+    <meta name="description"            content="HPE South Africa - September 6th-14th, 2018">
+    <meta name="keywords"               content="HPE South Africa">
     <meta name="robots"                 content="Index,Follow">
-    <meta name="date"                   content="January 25, 2018"/>
+    <meta name="date"                   content="July 23, 2018"/>
     <meta name="language"               content="es">
     <meta name="theme-color"            content="#000000">
     <title>HPE South Africa</title>

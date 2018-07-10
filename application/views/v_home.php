@@ -43,7 +43,7 @@
                 <source src="<?php echo RUTA_VIDEO?>video.mp4" type="">
             </video>
         </div>
-        <!-- <div class="js-fondo"></div> -->
+        <div class="js-fondo js-fondo--home"></div>
         <div class="js-container">
             <div class="js-home js-height js-flex">
                 <div class="js-contenido">

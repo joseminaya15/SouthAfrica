@@ -4,13 +4,13 @@
     	<meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible"  content="IE=edge">
         <meta name="viewport"               content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-        <meta name="description"            content="ECB Palo Alto">
-        <meta name="keywords"               content="ECB Palo Alto">
+        <meta name="description"            content="HPE South Africa - September 6th-14th, 2018">
+        <meta name="keywords"               content="HPE South Africa">
         <meta name="robots"                 content="Index,Follow">
-        <meta name="date"                   content="Febrero 15, 2018"/>
+        <meta name="date"                   content="July 23, 2018"/>
         <meta name="language"               content="es">
         <meta name="theme-color"            content="#000000">
-    	<title>ECB Palo Alto</title>
+        <title>HPE South Africa</title>
     	<link rel="shortcut icon" href="<?php echo RUTA_IMG?>logo/favicon.ico">
     	<link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>toaster/toastr.min.css?v=<?php echo time();?>">
         <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>bootstrap-select/css/bootstrap-select.min.css?v=<?php echo time();?>">
@@ -24,7 +24,7 @@
         <link rel="stylesheet"    href="<?php echo RUTA_CSS?>admin.css?v=<?php echo time();?>">
     </head>
     <body>
-        <div class="js-header">
+        <div class="js-header--admin">
             <div class="js-header--left">
                 <img src="<?php echo RUTA_IMG?>logo/logo-hpe-negro.png">
             </div>
