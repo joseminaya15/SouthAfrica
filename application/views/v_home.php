@@ -51,8 +51,8 @@
                     <h2>Make it possible with HPE</h2>
                     <p>September 6th to 14th, 2018</p>
                     <div class="js-contenido__buttons">
-                        <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">REGISTER HERE</a>
                         <a href="#home" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button js-button--default">INFORMATION</a>
+                        <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">REGISTER HERE</a>
                     </div>
                 </div>
             </div>
@@ -70,14 +70,14 @@
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane fade in active" id="itinerary">
                         <div class="js-information p-10">
-                            <h2>QATAR:</h2>
+                            <h2>Qatar</h2>
                             <p>Qatar Airlines will provide the entire group with the following services while on the stop-over in Doha:</p>
                             <p>Qatar Airlines will have for each passenger appropriate short-term tourist visas available upon arrival, and will transfer the group to the respective hotel near Doha International Airport. For this reason, we need to have copies of the passport pages from all participants 3 weeks prior to the travel date!</p>
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="southafrica">
                         <div class="js-information p-10">
-                            <h2>SOUTH AFRICA:</h2>
+                            <h2>South Africa</h2>
                             <p>We recently became aware of conflicting information published on certain airline and government websites regarding entry requirements for South Africa. We are writing to alert you of the situation so you can take any necessary action to ensure your documents are in order. Information provided pertains to U.S. passport holders only. Non-U.S. Citizens should check with the appropriate foreign consular representative.</p>
                             <p>While guests are responsible to obtain the proper travel documents for destinations on your itinerary, U.S. passport holders visiting South Africa for tourism purposes for less than 90 days do not need a visa however their passport must contain at least two consecutive, entirely blank (unstamped) visa pages PER ENTRY into South Africa and be valid for at least 6 months after the intended return. Therefore guests continuing on to Zimbabwe and/or Botswana and returning back to South Africa are required to have at least four blank visa pages. These pages are in addition to the endorsement/amendment pages at the back of the passport. South African government regulations prohibit airlines from boarding passengers without required blank pages and passport validity.</p>
                             <p>It is vital that you provide all travelers with links to the following websites in order to obtain all necessary information about visas: </p>
@@ -88,76 +88,78 @@
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="documentation">
                         <div class="js-information p-10">
+                            <h2>Countries falling within the Yellowfever Belt</h2>
                             <p>Vaccination should be approved by the World Health Organization (WHO) and administered at least 10 days before departure for South Africa at any yellow fever approved vaccination centers as the vaccine offers protection 10 days after administration. If vaccination is administered less than 10 days before departure, traveler may be refused entry.</p>
-                            <div class="col-xs-12 p-0">
-                                <strong>Africa</strong>
-                            </div>
-                            <div class="col-xs-12 p-0">
-                                <div class="col-sm-6">
-                                    <ul>
-                                        <li>Angola</li>
-                                        <li>Benin</li>
-                                        <li>Burkina Faso</li>
-                                        <li>Burundi</li>
-                                        <li>Cameroon</li>
-                                        <li>Central African Republic</li>
-                                        <li>Chad</li>
-                                        <li>Congo</li>
-                                        <li>Cote d'Ivoire</li>
-                                        <li>Democratic Republic of the Congo</li>
-                                        <li>Equatorial Guinea</li>
-                                        <li>Ethiopia</li>
-                                        <li>Gabon</li>
-                                        <li>Gambia</li>
-                                        <li>Ghana</li>
-                                    </ul>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <strong>Africa</strong>
                                 </div>
-                                <div class="col-sm-6">
-                                    <ul>
-                                        <li>Guinea</li>
-                                        <li>Guinea-Bissau</li>
-                                        <li>Kenya</li>
-                                        <li>Liberia</li>
-                                        <li>Mali</li>
-                                        <li>Mauritania</li>
-                                        <li>Niger</li>
-                                        <li>Nigeria</li>
-                                        <li>Senegal</li>
-                                        <li>Sierra Leone</li>
-                                        <li>Sudan</li>
-                                        <li>Sudan</li>
-                                        <li>Togo</li>
-                                        <li>Uganda</li>
-                                    </ul>
+                                <div class="col-xs-12">
+                                    <div class="col-sm-6">
+                                        <ul>
+                                            <li>Angola</li>
+                                            <li>Benin</li>
+                                            <li>Burkina Faso</li>
+                                            <li>Burundi</li>
+                                            <li>Cameroon</li>
+                                            <li>Central African Republic</li>
+                                            <li>Chad</li>
+                                            <li>Congo</li>
+                                            <li>Cote d'Ivoire</li>
+                                            <li>Democratic Republic of the Congo</li>
+                                            <li>Equatorial Guinea</li>
+                                            <li>Ethiopia</li>
+                                            <li>Gabon</li>
+                                            <li>Gambia</li>
+                                            <li>Ghana</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <ul>
+                                            <li>Guinea</li>
+                                            <li>Guinea-Bissau</li>
+                                            <li>Kenya</li>
+                                            <li>Liberia</li>
+                                            <li>Mali</li>
+                                            <li>Mauritania</li>
+                                            <li>Niger</li>
+                                            <li>Nigeria</li>
+                                            <li>Senegal</li>
+                                            <li>Sierra Leone</li>
+                                            <li>Sudan</li>
+                                            <li>Sudan</li>
+                                            <li>Togo</li>
+                                            <li>Uganda</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <strong>Central and South America</strong>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="col-sm-6">
+                                        <ul>
+                                            <li>ArgentinaBolivia</li>
+                                            <li>Bolivia</li>
+                                            <li>Brazil</li>
+                                            <li>Colombia</li>
+                                            <li>Ecuador</li>
+                                            <li>French Guyana</li>
+                                            <li>Guyana</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <ul>
+                                            <li>Panama</li>
+                                            <li>Paraguay</li>
+                                            <li>Peru</li>
+                                            <li>Surinam</li>
+                                            <li>Trinidad and Tobago</li>
+                                            <li>Venezuela</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 p-0">
-                                <strong>Central and South America</strong>
-                            </div>
-                            <div class="col-xs-12 p-0">
-                                <div class="col-sm-6">
-                                    <ul>
-                                        <li>ArgentinaBolivia</li>
-                                        <li>Bolivia</li>
-                                        <li>Brazil</li>
-                                        <li>Colombia</li>
-                                        <li>Ecuador</li>
-                                        <li>French Guyana</li>
-                                        <li>Guyana</li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-6">
-                                    <ul>
-                                        <li>Panama</li>
-                                        <li>Paraguay</li>
-                                        <li>Peru</li>
-                                        <li>Surinam</li>
-                                        <li>Trinidad and Tobago</li>
-                                        <li>Venezuela</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <p>Countries falling within the Yellowfever Belt</p>
                         </div>
                     </div>
                 </div>
@@ -383,8 +385,9 @@
             </div>
             <div id="confirmation" class="js-confirmation">
                 <h2>Congratulations!</h2>
-                <p>We have received all your information to manage your prize. Shortly we will contact you for more details.</p>
-                <p>Prepare suitcases and enjoy the adventure!</p>
+                <p>We have received all your information to manage your prize.</p>
+                <p>Shortly we will contact you for more details.</p>
+                <strong>Prepare suitcases and enjoy the adventure!</strong>
             </div>
         </div>
     </section>
