@@ -52,24 +52,115 @@
                     <p>September 6th to 14th, 2018</p>
                     <div class="js-contenido__buttons">
                         <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">REGISTER HERE</a>
-                        <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button js-button--default">HOME</a>
+                        <a href="#home" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button js-button--default">HOME</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="visa" class="js-section">
+    <section id="home" class="js-section">
         <div class="js-container">
-            <h2 class="js-title">VISA INFORMATION</h2>
-            <div class="js-information">
-                <p>A passport is required for international trips. A valid passport is a government requirement and immigration officials will deny entry to travelers without one.</p>
-                <strong>A valid passport must meet these specifications:</strong>
-                <ul>
-                    <li>Have a valid expiration date more than 6 months from the trip return date</li>
-                    <li>Is in good condition and is not frayed or torn</li>
-                    <li>Have a minimum of 2 blank pages for Immigration stamps</li>
+            <h2 class="js-title">IMPORTANT INFORMATION</h2>
+            <div class="js-card">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="active"><a href="#itinerary" aria-controls="itinerary" role="tab" data-toggle="tab">About Itinerary</a></li>
+                    <li><a href="#southafrica" aria-controls="southafrica" role="tab" data-toggle="tab">About South Africa</a></li>
+                    <li><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab">Documentation</a></li>
                 </ul>
-                <p>These requirements are for a Passport holder from United States of America. If the trip includes connection points through additional countries or you hold a passport from another country, <a href="https://www.us-immigration.com/?referrer=bing-cpc-52871152-us%20visa%20application~118322938440$m=bb-b$g=4199004321-11466653020&utm_source=bing&utm_medium=cpc&utm_campaign=Visa%20-%20SRCH&utm_term=us%20visa%20application&utm_content=%2Bus%20%2Bvisa%20%2Bapplication" target="_blank">click here</a> to visit the American Immigration Center website to verify the passport or visa requirements.</p>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="itinerary">
+                        <div class="js-information p-10">
+                            <h2>QATAR:</h2>
+                            <p>Qatar Airlines will provide the entire group with the following services while on the stop-over in Doha:</p>
+                            <p>Qatar Airlines will have for each passenger appropriate short-term tourist visas available upon arrival, and will transfer the group to the respective hotel near Doha International Airport. For this reason, we need to have copies of the passport pages from all participants 3 weeks prior to the travel date!</p>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="southafrica">
+                        <div class="js-information p-10">
+                            <h2>SOUTH AFRICA:</h2>
+                            <p>We recently became aware of conflicting information published on certain airline and government websites regarding entry requirements for South Africa. We are writing to alert you of the situation so you can take any necessary action to ensure your documents are in order. Information provided pertains to U.S. passport holders only. Non-U.S. Citizens should check with the appropriate foreign consular representative.</p>
+                            <p>While guests are responsible to obtain the proper travel documents for destinations on your itinerary, U.S. passport holders visiting South Africa for tourism purposes for less than 90 days do not need a visa however their passport must contain at least two consecutive, entirely blank (unstamped) visa pages PER ENTRY into South Africa and be valid for at least 6 months after the intended return. Therefore guests continuing on to Zimbabwe and/or Botswana and returning back to South Africa are required to have at least four blank visa pages. These pages are in addition to the endorsement/amendment pages at the back of the passport. South African government regulations prohibit airlines from boarding passengers without required blank pages and passport validity.</p>
+                            <p>It is vital that you provide all travelers with links to the following websites in order to obtain all necessary information about visas: </p>
+                            <p>Official South African website: <a href="http://www.dha.gov.za/index.php/immigration-services/exempt-countries" target="_blank">http://www.dha.gov.za/index.php/immigration-services/exempt-countries</a></p>
+                            <p>Website: <a href="http://www.southafrica-newyork.net/homeaffairs/forms/dha_73_form.pdf" target="_blank">http://www.southafrica-newyork.net/homeaffairs/forms/dha_73_form.pdf</a></p>
+                            <p>Global Travel Leaders is unable to provide visa services. It is the responsibility of each traveler to ensure that they have proper documentation and, if required, Visas processed for South Africa. If a participant resides in the US and needs a visa due to his/her citizenship, that person can use the services of <a href="https://www.passportsandvisas.com/visas/south-africa/tourist" target="_blank">https://www.passportsandvisas.com/visas/south-africa/tourist</a> or call : <a href="tel:+1855-399-1189">855-399-1189</a></p>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="documentation">
+                        <div class="js-information p-10">
+                            <p>Vaccination should be approved by the World Health Organization (WHO) and administered at least 10 days before departure for South Africa at any yellow fever approved vaccination centers as the vaccine offers protection 10 days after administration. If vaccination is administered less than 10 days before departure, traveler may be refused entry.</p>
+                            <div class="col-xs-12 p-0">
+                                <strong>Africa</strong>
+                            </div>
+                            <div class="col-xs-12 p-0">
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <li>Angola</li>
+                                        <li>Benin</li>
+                                        <li>Burkina Faso</li>
+                                        <li>Burundi</li>
+                                        <li>Cameroon</li>
+                                        <li>Central African Republic</li>
+                                        <li>Chad</li>
+                                        <li>Congo</li>
+                                        <li>Cote d'Ivoire</li>
+                                        <li>Democratic Republic of the Congo</li>
+                                        <li>Equatorial Guinea</li>
+                                        <li>Ethiopia</li>
+                                        <li>Gabon</li>
+                                        <li>Gambia</li>
+                                        <li>Ghana</li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <li>Guinea</li>
+                                        <li>Guinea-Bissau</li>
+                                        <li>Kenya</li>
+                                        <li>Liberia</li>
+                                        <li>Mali</li>
+                                        <li>Mauritania</li>
+                                        <li>Niger</li>
+                                        <li>Nigeria</li>
+                                        <li>Senegal</li>
+                                        <li>Sierra Leone</li>
+                                        <li>Sudan</li>
+                                        <li>Sudan</li>
+                                        <li>Togo</li>
+                                        <li>Uganda</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 p-0">
+                                <strong>Central and South America</strong>
+                            </div>
+                            <div class="col-xs-12 p-0">
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <li>ArgentinaBolivia</li>
+                                        <li>Bolivia</li>
+                                        <li>Brazil</li>
+                                        <li>Colombia</li>
+                                        <li>Ecuador</li>
+                                        <li>French Guyana</li>
+                                        <li>Guyana</li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <li>Panama</li>
+                                        <li>Paraguay</li>
+                                        <li>Peru</li>
+                                        <li>Surinam</li>
+                                        <li>Trinidad and Tobago</li>
+                                        <li>Venezuela</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p>Countries falling within the Yellowfever Belt</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -159,7 +250,7 @@
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class="js-input js-date js-flex">
-                                        <input class="js-disabled" type="text" id="issuedate" name="issuedate" maxlength="10" placeholder="Issue date" value="" style="pointer-events: none">
+                                        <input class="js-disabled" type="text" id="issuedate" name="issuedate" maxlength="10" placeholder="Issue date" value="" style="pointer-events: none" disabled>
                                         <div class="js-icon">
                                             <button type="button" class="mdl-button mdl-js-button mdl-button--icon">
                                                 <i class="mdi mdi-date_range"></i>
@@ -169,7 +260,7 @@
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class="js-input js-date js-flex">
-                                        <input class="js-disabled" type="text" id="expiredate" name="expiredate" maxlength="10" placeholder="Expire date" value="" style="pointer-events: none">
+                                        <input class="js-disabled" type="text" id="expiredate" name="expiredate" maxlength="10" placeholder="Expire date" value="" style="pointer-events: none" disabled>
                                         <div class="js-icon">
                                             <button type="button" class="mdl-button mdl-js-button mdl-button--icon">
                                                 <i class="mdi mdi-date_range"></i>
@@ -193,7 +284,7 @@
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class="js-input js-date js-flex">
-                                        <input class="js-disabled" type="text" id="birthdate" name="birthdate" maxlength="10" placeholder="Date of birth" value="" style="pointer-events: none">
+                                        <input class="js-disabled" type="text" id="birthdate" name="birthdate" maxlength="10" placeholder="Date of birth" value="" style="pointer-events: none" disabled>
                                         <div class="js-icon">
                                             <button type="button" class="mdl-button mdl-js-button mdl-button--icon">
                                                 <i class="mdi mdi-date_range"></i>
