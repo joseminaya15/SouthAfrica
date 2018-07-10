@@ -12,7 +12,8 @@ class M_reporte extends  CI_Model{
                        n.correo,
                        n.fecha_registro,
                        p.*,
-                       ce.*
+                       ce.*,
+                       n.telefono AS phone
                   FROM negocio n,
                        persona p,
                        contacto_emergencia ce
