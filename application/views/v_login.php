@@ -26,10 +26,10 @@
     <body>
         <div class="js-header">
             <div class="js-header--left">
-                <img src="<?php echo RUTA_IMG?>logo/logo-hpe.svg">
+                <img src="<?php echo RUTA_IMG?>logo/logo-hpe-negro.png">
             </div>
             <div class="js-header--right">
-                <img src="<?php echo RUTA_IMG?>logo/logo-aruba.svg">
+                <img src="<?php echo RUTA_IMG?>logo/logo-aruba-negro.png">
             </div>
         </div>
         <section class="js-section js-height">

@@ -24,12 +24,12 @@
     <link rel="stylesheet"    href="https://cdn.datatables.net/buttons/1.5.1/css/buttons.bootstrap.min.css">
     <link rel="stylesheet"    href="<?php echo RUTA_CSS?>admin.css?v=<?php echo time();?>">
 <body>
-    <div class="js-header js-fixed">
+    <div class="js-header--admin js-fixed">
         <div class="js-header--left">
-            <img src="<?php echo RUTA_IMG?>logo/logo-hpe.svg">
+            <img src="<?php echo RUTA_IMG?>logo/logo-hpe-blanco.png">
         </div>
         <div class="js-header--right">
-            <img src="<?php echo RUTA_IMG?>logo/logo-aruba.svg">
+            <img src="<?php echo RUTA_IMG?>logo/logo-aruba-blanco.png">
         </div>
     </div>
     <section id="principal" class="js-section js-section--admin">
