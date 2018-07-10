@@ -52,6 +52,18 @@ function msj(tipo, msj, cabecera){
 			showMethod: "fadeIn",
 			hideMethod: "fadeOut"
 		});
+	} else if (tipo == 'success'){
+		toastr.warning(msj, cabecera, {
+			closeButton: true,
+			positionClass: "toast-bottom-right",
+			showDuration: 250,
+		    hideDuration: 250,
+			timeOut: 5000,
+			showEasing: "swing",
+			hideEasing: "swing",
+			showMethod: "fadeIn",
+			hideMethod: "fadeOut"
+		});
 	} else{
 		toastr.success(msj, cabecera, {timeOut: 4000});
 	}

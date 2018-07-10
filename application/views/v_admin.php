@@ -42,24 +42,29 @@
                     <table id="example" class="display nowrap table table-bordered table-hover dt-responsive" cellspacing="0" width="100%">
                         <thead>
                             <tr class="tr-header-reporte">
-                                <th class="text-center">Nombre</th>
-                                <th class="text-center">Empresa</th>
-                                <th class="text-center">correo</th>
+                                <th class="text-left">Nombre</th>
+                                <th class="text-left">Empresa</th>
+                                <th class="text-left">correo</th>
                                 <th class="text-center">Fecha Registro</th>
+                                <th class="text-left" style="display: none">Cargo</th>
+                                <th class="text-center" style="display: none">Phone</th>
+                                <th class="text-left" style="display: none">Ciudad</th>
+                                <th class="text-left" style="display: none">Pa&iacute;s</th>
                                 <th class="text-center" style="display: none">Nro Pasaporte</th>
                                 <th class="text-center" style="display: none">Fecha Emisión</th>
                                 <th class="text-center" style="display: none">Fecha Expiración</th>
-                                <th class="text-center" style="display: none">País Emisor</th>
-                                <th class="text-center" style="display: none">Género</th>
+                                <th class="text-left" style="display: none">País Emisor</th>
+                                <th class="text-left" style="display: none">Género</th>
                                 <th class="text-center" style="display: none">Fecha Cumpleaños</th>
-                                <th class="text-center" style="display: none">Nacionalidad</th>
-                                <th class="text-center" style="display: none">Ciudad Referencia</th>
-                                <th class="text-center" style="display: none">Asiento Preferencia</th>
-                                <th class="text-center" style="display: none">Talla polo</th>
-                                <th class="text-center" style="display: none">Nombre cont. Emergencia</th>
+                                <th class="text-left" style="display: none">Nacionalidad</th>
+                                <th class="text-left" style="display: none">Ciudad Referencia</th>
+                                <th class="text-left" style="display: none">Visa Invitation</th>
+                                <th class="text-left" style="display: none">Asiento Preferencia</th>
+                                <th class="text-left" style="display: none">Talla polo</th>
+                                <th class="text-left" style="display: none">Nombre cont. Emergencia</th>
                                 <th class="text-center" style="display: none">Teléfono emergéncia</th>
-                                <th class="text-center" style="display: none">Relación</th>
-                                <th class="text-center" style="display: none">Adicional</th>
+                                <th class="text-left" style="display: none">Relación</th>
+                                <th class="text-left" style="display: none">Adicional</th>
                             </tr>
                         </thead>
                         <tbody>

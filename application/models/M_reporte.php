@@ -6,11 +6,7 @@ class M_reporte extends  CI_Model{
     }
 
     function getDatosUser() {
-        $sql = "SELECT n.primer_nombre,
-                       n.apellidos,
-                       n.empresa,
-                       n.correo,
-                       n.fecha_registro,
+        $sql = "SELECT n.*,
                        p.*,
                        ce.*,
                        n.telefono AS phone
