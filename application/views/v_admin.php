@@ -82,7 +82,7 @@
             <div class="modal-content">
                 <div class="mdl-card">
                     <div class="mdl-card__supporting-text">
-                        <img src="">
+                        <img id="imgDocumento" src="">
                     </div>
                     <div class="mdl-card__actions">                         
                         <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" data-dismiss="modal">Cerrar</button>

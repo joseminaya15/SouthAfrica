@@ -79,4 +79,22 @@ class Admin extends CI_Controller {
         }
         echo json_encode($data);
     }
+    function muestraPasaporte() {
+        $data['error'] = EXIT_ERROR;
+        $data['msj']   = null;
+        try {
+            $id  = $this->input->post('id');
+            $img = $this->M_reporte->getDocumento($id);
+            if($img[0]->imagen != null) {
+                $data['imagen'] = RUTA_ARCHIVOS.$img[0]->imagen;
+            } else {   
+                $data['imagen'] = "";
+            }
+            $data['error'] = EXIT_SUCCESS;
+        }
+        catch (Exception $ex){
+            $data['msj'] = $ex->getMessage();
+        }
+        echo json_encode($data);
+    }
 }

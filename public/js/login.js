@@ -57,5 +57,21 @@ function verificarDatos(e){
 }
 function openModalPassport(id){
     var modal = $('#modalPasaporte');
-    modal.modal('toggle');
+    var id = id;
+    var ruta = '';
+    $.ajax({
+      data : { id : id},
+      url  : 'admin/muestraPasaporte',
+      type : 'POST'
+    }).done(function(data){
+      data = JSON.parse(data);
+      if(data.error == 0 ){
+        if(data.imagen != "") {
+          $('#imgDocumento').attr("src", data.imagen);
+        } else {
+          $('#imgDocumento').text("IMAGEN NO ENCONTRADA");
+        }
+        modal.modal('toggle');
+      } else { return; }
+    });
 }

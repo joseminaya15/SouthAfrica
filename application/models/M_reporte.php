@@ -18,4 +18,11 @@ class M_reporte extends  CI_Model{
         $result = $this->db->query($sql);
         return $result->result();
     }
+    function getDocumento($id){
+        $sql    = "SELECT imagen 
+                     FROM persona
+                    WHERE _id_negocio = ".$id."";
+        $result = $this->db->query($sql);
+        return $result->result();
+    }
 }
