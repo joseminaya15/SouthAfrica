@@ -244,13 +244,13 @@
                     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Passport Number</label>
                                         <input type="text" id="passport" >
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input js-date js-flex">
                                         <input class="js-disabled" type="text" id="issuedate" name="issuedate" maxlength="10" placeholder="Issue date" value="" style="pointer-events: none" disabled>
                                         <div class="js-icon">
@@ -260,7 +260,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input js-date js-flex">
                                         <input class="js-disabled" type="text" id="expiredate" name="expiredate" maxlength="10" placeholder="Expire date" value="" style="pointer-events: none" disabled>
                                         <div class="js-icon">
@@ -270,13 +270,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Passport Issuing Country</label>
                                         <input type="text" id="issuecountry" >
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input js-select">
                                         <select name="gender" id="gender" title="Gender"> 
                                             <option value="Male">Male</option>
@@ -284,7 +284,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input js-date js-flex">
                                         <input class="js-disabled" type="text" id="birthdate" name="birthdate" maxlength="10" placeholder="Date of birth" value="" style="pointer-events: none" disabled>
                                         <div class="js-icon">
@@ -294,19 +294,19 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                      <div class=" js-input">
                                         <label for="text">Nationality</label>
                                         <input type="text" id="nationality" >
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Country of Residence</label>
                                         <input type="text" id="residence" >
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label>Do you require a visa invitation letter?</label>
                                         </br>
@@ -320,7 +320,7 @@
                                         </label>
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input js-select">
                                         <select name="seating" id="seating" title="Seating Preference"> 
                                             <option value="Aisle">Aisle</option>
@@ -328,7 +328,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input js-select">
                                         <select name="shirt" id="shirt" title="Shirt or T-Shirt Size"> 
                                             <option value="Small">Small</option>
@@ -338,6 +338,22 @@
                                             <option value="XX-Large">XX-Large</option>
                                             <option value="Other">Other</option>
                                         </select>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <div class="js-input js-flex">
+                                        <input class="js-disabled" type="text" id="fotopassport" name="fotopassport" maxlength="10" placeholder="Suba la foto de su pasaporte" style="pointer-events: none">
+                                        <div class="js-icon">
+                                            <button type="button" class="mdl-button mdl-js-button mdl-button--icon js-disabled" onclick="subirPasaporte()">
+                                                <i class="mdi mdi-backup"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <div class=" js-input">
+                                        <label for="text">How many blank pages do you left on your passport?</label>
+                                        <input type="text" id="page">
                                     </div>
                                 </div>
                             </div>
@@ -381,7 +397,7 @@
                 </div>
             </div>
             <div class="js-section--button text-right">
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="sendInformation()">Send</button>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="sendInformation();guardarPhoto();">Send</button>
             </div>
             <div id="confirmation" class="js-confirmation">
                 <h2>Congratulations!</h2>
@@ -396,6 +412,10 @@
             <p>&copy;Copyright 2018 Hewlett Packard Enterprice Development LP</p>
         </div>
     </footer>
+    <form id="frmArchivo" method="post" style="display: none;">
+        <input id="archivo" type="file" name="archivo" accept=".jpg,.jpeg,.png,.svg" />
+        <input type="hidden" name="MAX_FILE_SIZE" value="2000000"/>
+    </form>
     <script src="<?php echo RUTA_JS?>jquery-3.2.1.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>jquery-1.11.2.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>bootstrap/js/bootstrap.min.js?v=<?php echo time();?>"></script>

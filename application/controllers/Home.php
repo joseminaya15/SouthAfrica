@@ -44,6 +44,8 @@ class Home extends CI_Controller {
 			$flgInvitacion 	= $this->input->post('flgInvitacion');
 			$asientoPrefere = $this->input->post('asientoPrefere');
 			$tallaPolo 		= $this->input->post('tallaPolo');
+			$foto 		    = $this->input->post('foto');
+			$page 		    = $this->input->post('page');
 			//Tabla Contacto Emergencia
 			$nombreContacto = $this->input->post('nombreContacto');
 			$telefonoContac = $this->input->post('telefonoContac');
@@ -72,6 +74,8 @@ class Home extends CI_Controller {
 								   'flg_invitacion'		=> $flgInvitacion,
 								   'asiento_preferencia'=> $asientoPrefere,
 								   'talla_polo'			=> $tallaPolo,
+								   'page'				=> $page,
+								   'imagen'				=> $foto,
 								   '_id_negocio'		=> $datoInsert['id_negocio']);
 			$insertContacto = array('nombre' 	 => $nombreContacto, 
 									'telefono' 	 => $telefonoContac,
@@ -79,11 +83,41 @@ class Home extends CI_Controller {
 									'adicional'  => $especificacion,
 									'_id_negocio'=> $datoInsert['id_negocio']);
 			$this->M_Solicitud->insertarDemasDatos($insertPersona, 'persona', $insertContacto, 'contacto_emergencia');
-          $data['msj']   = $datoInsert['msj'];
-          $data['error'] = $datoInsert['error'];
-		} catch(Exception $ex) {
+			$session    = array('id_negocio' => $datoInsert['id_negocio']);
+            $this->session->set_userdata($session);
+      		$data['msj']   = $datoInsert['msj'];
+      		$data['error'] = $datoInsert['error'];
+		}catch(Exception $ex) {
 			$data['msj'] = $ex->getMessage();
 		}
       	echo json_encode($data);
 	}
+	function subirPassport(){
+        $respuesta = new stdClass();
+        $respuesta->mensaje = "";
+        if(count($_FILES) == 0){
+            $respuesta->mensaje = 'Seleccione su factura';
+        }else {
+            $tipo = $_FILES['archivo']['type']; 
+            $tamanio = $_FILES['archivo']['size']; 
+            $archivotmp = $_FILES['archivo']['tmp_name'];
+            $namearch = $_FILES['archivo']['name'];
+            $nuevo = explode(".",$namearch);
+            if($tamanio > '2000000'){
+                $respuesta->mensaje = 'Photo Passport must be less than 2MB';
+            }else {
+                if($nuevo[1] == 'svg' || $nuevo[1] == 'jpeg' || $nuevo[1] == 'jpg' || $nuevo[1] == 'png'){
+                    $target = getcwd().DIRECTORY_SEPARATOR.'public'.DIRECTORY_SEPARATOR.'archivos'.DIRECTORY_SEPARATOR.basename($_FILES['archivo']['name']);
+                    if(move_uploaded_file($archivotmp, $target) ){
+                       // $respuesta->mensaje = 'Su logo se subió correctamente';
+                    } else {
+                       $respuesta->mensaje = 'Hubo un problema en la subida de su logo';
+                    }
+                }else {
+                    $respuesta->mensaje = 'El formato de la imagen es incorrecta';
+                }
+            }
+            echo json_encode($respuesta);
+        }
+    }
 }

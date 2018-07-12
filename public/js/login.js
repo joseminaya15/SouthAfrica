@@ -55,3 +55,7 @@ function verificarDatos(e){
 		ingresar();
     }
 }
+function openModalPassport(id){
+    var modal = $('#modalPasaporte');
+    modal.modal('toggle');
+}

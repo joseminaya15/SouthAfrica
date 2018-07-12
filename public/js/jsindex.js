@@ -28,6 +28,9 @@ function sendInformation(){
 	}
 	var seating 			 = $('#seating').val();
 	var shirt 				 = $('#shirt').val();
+	var photoPassport        = $('#fotopassport').val();
+	var page                 = $('#page').val();
+	var photo                = $('#archivo')[0].files[0]; 
 	//Emergency Contact
 	var contact 			 = $('#contact').val();
 	var phone 				 = $('#phone').val();
@@ -120,7 +123,22 @@ function sendInformation(){
 		msj('error', 'T-shirt must be completed');
 		return;
 	}
-	//CONTINUA AQUI
+	if(photoPassport == null || photoPassport == '') {
+		msj('error', 'Photo Passport must be completed');
+		return;
+	}
+	if(page == null || page == '') {
+		msj('error', 'Pages must be completed');
+		return;
+	}
+	if(photo['size'] > 2048000){
+		msj('error', 'Photo Passport must be less than 2MB');
+		return;
+	}
+	if(photo == undefined){
+		msj('error', 'Select an image');
+		return;
+	}
 	//Contacto emergencia
 	if(contact == null || contact == '') {
 		msj('error', 'Contact name must be completed');
@@ -156,6 +174,8 @@ function sendInformation(){
 				flgInvitacion	: check_invi,
 				asientoPrefere	: seating,
 				tallaPolo		: shirt,
+				foto            : photoPassport,
+				page            : page,
 				//
 				nombreContacto	: contact,
 				telefonoContac	: phone,
@@ -167,6 +187,7 @@ function sendInformation(){
 		try {
 			data = JSON.parse(data);
 			if(data.error == 0){
+				guardarPhoto()
 				$('.js-input').find('input').val('');
 				$('.js-input').find('select').val('0');
 				$('.js-input').find('select').selectpicker('refresh');
@@ -229,3 +250,49 @@ $('a.link[href^="#"]').click(function(e) {
  		scrollTop : (y - 40)
  	}, 'slow');
 });
+function subirPasaporte(){
+	$( "#archivo" ).trigger( "click" );
+}
+$("#archivo").change(function(e) {
+	var files = e.target.files,
+	    filesLength = files.length;
+	for (var i = 0; i < filesLength ; i++) {
+		var f = files[i]
+		var archivo = (f.name).replace(" ","");
+		nombre = archivo;
+	}
+	$('#fotopassport').val(nombre);
+});
+function guardarPhoto(){
+	var datos = new FormData();
+	var photo = $('#archivo')[0].files[0];
+	if(photo['size'] > 2048000){
+		return;
+	}
+	if(photo == undefined){
+		return;
+	}
+    datos.append('archivo',$('#archivo')[0].files[0]);
+     $.ajax({
+        type     	:"post",
+        dataType 	:"json",
+        url		    :"home/subirPassport",
+        contentType :false,
+        data 		:datos,
+        processData :false,
+      }).done(function(respuesta){
+      	if(respuesta.error == 0) {
+      		/*modal('ModalQuestion');
+      		setTimeout(function() {
+				modal('modalDetalles');
+				$('#bodyPuntaje').html(respuesta.html);
+        		$('#puntajeGeneral').html(respuesta.puntosGeneral);
+        		$('#bodyUltimaCotizacion').html(respuesta.bodyCotizaciones);
+        		$('#bodyCanales').html(respuesta.bodyCanales);
+        		//limpiarCampos();
+			}, 250);*/
+      	} else {
+        	msj('error', respuesta.mensaje);
+      	}
+    });
+}

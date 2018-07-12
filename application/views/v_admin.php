@@ -45,6 +45,8 @@
                                 <th class="text-left">Nombre</th>
                                 <th class="text-left">Empresa</th>
                                 <th class="text-left">correo</th>
+                                <th class="text-left">P&aacute;ginas en blanco</th>
+                                <th class="text-center">Foto Pasaporte</th>
                                 <th class="text-center">Fecha Registro</th>
                                 <th class="text-left" style="display: none">Cargo</th>
                                 <th class="text-center" style="display: none">Phone</th>
@@ -75,6 +77,20 @@
             </div>
         </div>
     </section>
+    <div class="modal fade" id="modalPasaporte" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="mdl-card">
+                    <div class="mdl-card__supporting-text">
+                        <img src="">
+                    </div>
+                    <div class="mdl-card__actions">                         
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="<?php echo RUTA_JS?>jquery-3.2.1.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>jquery-1.11.2.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>bootstrap/js/bootstrap.min.js?v=<?php echo time();?>"></script>

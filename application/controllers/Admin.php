@@ -25,10 +25,22 @@ class Admin extends CI_Controller {
         }else {
             foreach ($datos as $key){
                 $invitado = $key->flg_invitacion == 1 ? 'Si' : 'No';
+                // $img     = '';
+                // if($key->imagen == null || $key->imagen == ''){
+                //     $img = 'No tiene imagen';
+                // }else {
+                //     $img = '<img src="'.RUTA_ARCHIVOS.''.$key->imagen.'" style="width:  100%;max-width: 100px;min-width: 100px;padding: 5px;">';
+                // }
                 $html .= '<tr class="tr-cursor-pointer" data-idSolicitud="'.$cont.'">
                             <td class="text-left">'.$key->primer_nombre.' '.$key->apellidos.'</td>
                             <td class="text-left">'.$key->empresa.'</td>
                             <td class="text-left">'.$key->correo.'</td>
+                            <td class="text-left">'.$key->page.'</td>
+                            <td class="text-center">
+                                <button class="mdl-button mdl-js-button mdl-button--icon" onclick="openModalPassport('.$key->id_negocio.')">
+                                    <i class="mdi mdi-collections"> </i>
+                                </button>
+                            </td>
                             <td class="text-center">'.$key->fecha_registro.'</td>
                             <td class="text-left" style="display: none;">'.$key->cargo.'</td>
                             <td class="text-center" style="display: none;">'.$key->phone.'</td>
