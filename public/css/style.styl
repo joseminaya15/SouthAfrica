@@ -345,7 +345,7 @@ video
 .js-fondo
 	absolute()
 	background url(../img/fondo/fondo-home.jpg) no-repeat center center
-	background-size cover
+	background-size cover !important
 	width 100%
 	height 100vh
 	z-index -1
@@ -366,6 +366,42 @@ video
 		background linear-gradient(#FFFFFF, transparent)
 		width 100%
 		height 200px
+	&.fondo1
+		background url(../img/fondo/fondo1.jpg) no-repeat center center
+	&.fondo2
+		background url(../img/fondo/fondo2.jpg) no-repeat center center
+	&.fondo3
+		background url(../img/fondo/fondo3.jpg) no-repeat center center
+.animation
+	-webkit-transform: scale(1.1);
+	   -moz-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	     -o-transform: scale(1.1);
+	        transform: scale(1.1);
+#principal
+	.owl-stage-outer
+	.owl-stage
+		height 100vh
+	.owl-carousel
+		absolute()
+		width 100%
+		z-index 1
+		max-width 100%
+		.owl-item
+			height 100vh
+			&.active
+				.item
+					.fondo1
+						-webkit-animation js-animation1 10s infinite
+						animation js-animation1 10s infinite
+					.fondo2
+						-webkit-animation js-animation2 10s infinite
+						animation js-animation2 10s infinite
+					.fondo3
+						-webkit-animation js-animation1 10s infinite
+						animation js-animation1 10s infinite
+			.item
+				height 100vh
 footer
 	background-color #425563
 	color #FFFFFF
@@ -458,6 +494,59 @@ footer
 				transform translate(1)
 				transform transform(-50% , -50%)
 				opacity 1
+/*ANIMACIONES*/
+@-webkit-keyframes js-animation1
+	0%
+		-webkit-transform translate3d(0px, 0px, 0px) scale(1)
+		-moz-transform translate3d(0px, 0px, 0px) scale(1)
+		-ms-transform translate3d(0px, 0px, 0px) scale(1)
+		-o-transform translate3d(0px, 0px, 0px) scale(1)
+		transform translate3d(0px, 0px, 0px) scale(1)
+	100%
+		-webkit-transform translate3d(-100px, 0px, 0px) scale(1.2)
+		-moz-transform translate3d(-100px, 0px, 0px) scale(1.2)
+		-ms-transform translate3d(-100px, 0px, 0px) scale(1.2)
+		-o-transform translate3d(-100px, 0px, 0px) scale(1.2)
+		transform translate3d(-100px, 0px, 0px) scale(1.2)
+@keyframes js-animation1
+	0%
+		-webkit-transform translate3d(0px, 0px, 0px) scale(1)
+		-moz-transform translate3d(0px, 0px, 0px) scale(1)
+		-ms-transform translate3d(0px, 0px, 0px) scale(1)
+		-o-transform translate3d(0px, 0px, 0px) scale(1)
+		transform translate3d(0px, 0px, 0px) scale(1)
+	100%
+		-webkit-transform translate3d(-100px, 0px, 0px) scale(1.2)
+		-moz-transform translate3d(-100px, 0px, 0px) scale(1.2)
+		-ms-transform translate3d(-100px, 0px, 0px) scale(1.2)
+		-o-transform translate3d(-100px, 0px, 0px) scale(1.2)
+		transform translate3d(-100px, 0px, 0px) scale(1.2)
+@-webkit-keyframes js-animation2
+	0%
+		-webkit-transform translate3d(0px, 0px, 0px) scale(1)
+		-moz-transform translate3d(0px, 0px, 0px) scale(1)
+		-ms-transform translate3d(0px, 0px, 0px) scale(1)
+		-o-transform translate3d(0px, 0px, 0px) scale(1)
+		transform translate3d(0px, 0px, 0px) scale(1)
+	100%
+		-webkit-transform translate3d(100px, 0px, 0px) scale(1.2)
+		-moz-transform translate3d(100px, 0px, 0px) scale(1.2)
+		-ms-transform translate3d(100px, 0px, 0px) scale(1.2)
+		-o-transform translate3d(100px, 0px, 0px) scale(1.2)
+		transform translate3d(100px, 0px, 0px) scale(1.2)
+@keyframes js-animation2
+	0%
+		-webkit-transform translate3d(0px, 0px, 0px) scale(1)
+		-moz-transform translate3d(0px, 0px, 0px) scale(1)
+		-ms-transform translate3d(0px, 0px, 0px) scale(1)
+		-o-transform translate3d(0px, 0px, 0px) scale(1)
+		transform translate3d(0px, 0px, 0px) scale(1)
+	100%
+		-webkit-transform translate3d(100px, 0px, 0px) scale(1.2)
+		-moz-transform translate3d(100px, 0px, 0px) scale(1.2)
+		-ms-transform translate3d(100px, 0px, 0px) scale(1.2)
+		-o-transform translate3d(100px, 0px, 0px) scale(1.2)
+		transform translate3d(100px, 0px, 0px) scale(1.2)
 /*TABLE*/
 table
 	&>tbody
