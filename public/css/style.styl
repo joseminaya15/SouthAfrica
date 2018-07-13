@@ -355,7 +355,7 @@ video
 		background-color #000000
 		z-index 0
 		height 100vh
-		opacity .5
+		opacity .2
 	&:AFTER
 		position absolute
 		content ''
@@ -372,12 +372,6 @@ video
 		background url(../img/fondo/fondo2.jpg) no-repeat center center
 	&.fondo3
 		background url(../img/fondo/fondo3.jpg) no-repeat center center
-.animation
-	-webkit-transform: scale(1.1);
-	   -moz-transform: scale(1.1);
-	    -ms-transform: scale(1.1);
-	     -o-transform: scale(1.1);
-	        transform: scale(1.1);
 #principal
 	.owl-stage-outer
 	.owl-stage
@@ -547,7 +541,32 @@ footer
 		-ms-transform translate3d(100px, 0px, 0px) scale(1.2)
 		-o-transform translate3d(100px, 0px, 0px) scale(1.2)
 		transform translate3d(100px, 0px, 0px) scale(1.2)
-/*TABLE*/
+@keyframes js-animation0
+	0%
+		-webkit-transform scale(1)
+		-moz-transform scale(1)
+		-ms-transform scale(1)
+		-o-transform scale(1)
+		transform scale(1)
+	100%
+		-webkit-transform scale(1.2)
+		-moz-transform scale(1.2)scale(1.2)
+		-ms-transform scale(1.2)
+		-o-transform scale(1.2)
+		transform scale(1.2)
+@-webkit-keyframes js-animation0
+	0%
+		-webkit-transform scale(1)
+		-moz-transform scale(1)
+		-ms-transform scale(1)
+		-o-transform scale(1)
+		transform scale(1)
+	100%
+		-webkit-transform scale(1.2)
+		-moz-transform scale(1.2)
+		-ms-transform scale(1.2)
+		-o-transform scale(1.2)
+		transform scale(1.2)
 table
 	&>tbody
 		&>tr
@@ -592,6 +611,16 @@ table
 	.navbar-brand
 		small
 			display none
+	#principal
+		.owl-carousel
+			.owl-item
+				&.active
+					.item
+						.fondo1
+						.fondo2
+						.fondo3
+							-webkit-animation js-animation0 10s infinite
+							animation js-animation0 10s infinite
 @media (max-width: 600px)
 	.js-contenido
 		padding 40px 20px
