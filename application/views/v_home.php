@@ -410,7 +410,7 @@
                 </div>
             </div>
             <div class="js-section--button text-right">
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="sendInformation();guardarPhoto();">Send</button>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="sendInformation();">Send</button>
             </div>
             <div id="confirmation" class="js-confirmation">
                 <h2>Congratulations!</h2>

@@ -259,7 +259,7 @@ $("#archivo").change(function(e) {
 	for (var i = 0; i < filesLength ; i++) {
 		var f = files[i]
 		var archivo = (f.name).replace(" ","");
-		nombre = archivo;
+		nombre = archivo; 
 	}
 	$('#fotopassport').val(nombre);
 });

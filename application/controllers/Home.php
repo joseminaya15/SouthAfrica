@@ -106,7 +106,7 @@ class Home extends CI_Controller {
             if($tamanio > '2000000'){
                 $respuesta->mensaje = 'Photo Passport must be less than 2MB';
             }else {
-                if($nuevo[1] == 'svg' || $nuevo[1] == 'jpeg' || $nuevo[1] == 'jpg' || $nuevo[1] == 'png'){
+                if($nuevo[-1] == 'svg' || $nuevo[-1] == 'jpeg' || $nuevo[-1] == 'jpg' || $nuevo[-1] == 'png'){
                     $target = getcwd().DIRECTORY_SEPARATOR.'public'.DIRECTORY_SEPARATOR.'archivos'.DIRECTORY_SEPARATOR.basename($_FILES['archivo']['name']);
                     if(move_uploaded_file($archivotmp, $target) ){
                        // $respuesta->mensaje = 'Su logo se subió correctamente';
