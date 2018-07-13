@@ -342,7 +342,7 @@
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input js-flex">
-                                        <input class="js-disabled" type="text" id="fotopassport" name="fotopassport" maxlength="10" placeholder="Suba la foto de su pasaporte" style="pointer-events: none">
+                                        <input class="js-disabled" type="text" id="fotopassport" name="fotopassport" maxlength="10" placeholder="Upload your passport photo" style="pointer-events: none">
                                         <div class="js-icon">
                                             <button type="button" class="mdl-button mdl-js-button mdl-button--icon js-disabled" onclick="subirPasaporte()">
                                                 <i class="mdi mdi-backup"></i>
