@@ -34,11 +34,13 @@ class Admin extends CI_Controller {
                                 <button class="mdl-button mdl-js-button mdl-button--icon" onclick="openModalPassport('.$key->id_negocio.')">
                                     <i class="mdi mdi-collections"> </i>
                                 </button>
+                                <a style="display:none">'.RUTA_ARCHIVOS.$key->imagen.'</a>
                             </td>
                             <td class="text-center">
                                 <button class="mdl-button mdl-js-button mdl-button--icon" onclick="openModalBlankPassport('.$key->id_negocio.')">
                                     <i class="mdi mdi-collections"> </i>
                                 </button>
+                                <a style="display:none">'.RUTA_ARCHIVOS.$key->imagen2.'</a>
                             </td>
                             <td class="text-center">'.$key->fecha_registro.'</td>
                             <td class="text-left" style="display: none;">'.$key->cargo.'</td>
