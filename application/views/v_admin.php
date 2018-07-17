@@ -47,6 +47,7 @@
                                 <th class="text-left">correo</th>
                                 <th class="text-left">P&aacute;ginas en blanco</th>
                                 <th class="text-center">Foto Pasaporte</th>
+                                <th class="text-center">Foto Páginas Pasaporte</th>
                                 <th class="text-center">Fecha Registro</th>
                                 <th class="text-left" style="display: none">Cargo</th>
                                 <th class="text-center" style="display: none">Phone</th>
@@ -83,6 +84,20 @@
                 <div class="mdl-card">
                     <div class="mdl-card__supporting-text">
                         <img id="imgDocumento" src="">
+                    </div>
+                    <div class="mdl-card__actions text-right">                         
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalBlankPasaporte" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="mdl-card">
+                    <div class="mdl-card__supporting-text">
+                        <img id="imgBlankDocumento" src="">
                     </div>
                     <div class="mdl-card__actions text-right">                         
                         <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" data-dismiss="modal">Cerrar</button>

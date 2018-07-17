@@ -25,12 +25,6 @@ class Admin extends CI_Controller {
         }else {
             foreach ($datos as $key){
                 $invitado = $key->flg_invitacion == 1 ? 'Si' : 'No';
-                // $img     = '';
-                // if($key->imagen == null || $key->imagen == ''){
-                //     $img = 'No tiene imagen';
-                // }else {
-                //     $img = '<img src="'.RUTA_ARCHIVOS.''.$key->imagen.'" style="width:  100%;max-width: 100px;min-width: 100px;padding: 5px;">';
-                // }
                 $html .= '<tr class="tr-cursor-pointer" data-idSolicitud="'.$cont.'">
                             <td class="text-left">'.$key->primer_nombre.' '.$key->apellidos.'</td>
                             <td class="text-left">'.$key->empresa.'</td>
@@ -38,6 +32,11 @@ class Admin extends CI_Controller {
                             <td class="text-left">'.$key->page.'</td>
                             <td class="text-center">
                                 <button class="mdl-button mdl-js-button mdl-button--icon" onclick="openModalPassport('.$key->id_negocio.')">
+                                    <i class="mdi mdi-collections"> </i>
+                                </button>
+                            </td>
+                            <td class="text-center">
+                                <button class="mdl-button mdl-js-button mdl-button--icon" onclick="openModalBlankPassport('.$key->id_negocio.')">
                                     <i class="mdi mdi-collections"> </i>
                                 </button>
                             </td>
@@ -87,6 +86,24 @@ class Admin extends CI_Controller {
             $img = $this->M_reporte->getDocumento($id);
             if($img[0]->imagen != null) {
                 $data['imagen'] = RUTA_ARCHIVOS.$img[0]->imagen;
+            } else {   
+                $data['imagen'] = "";
+            }
+            $data['error'] = EXIT_SUCCESS;
+        }
+        catch (Exception $ex){
+            $data['msj'] = $ex->getMessage();
+        }
+        echo json_encode($data);
+    }
+    function muestraBlankPasaporte() {
+        $data['error'] = EXIT_ERROR;
+        $data['msj']   = null;
+        try {
+            $id  = $this->input->post('id');
+            $img = $this->M_reporte->getBlankDocumento($id);
+            if($img[0]->imagen2 != null) {
+                $data['imagen'] = RUTA_ARCHIVOS.$img[0]->imagen2;
             } else {   
                 $data['imagen'] = "";
             }

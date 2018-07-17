@@ -355,7 +355,7 @@
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input js-flex">
-                                        <input class="js-disabled" type="text" id="fotopassport" name="fotopassport" maxlength="10" placeholder="Personal Info page" style="pointer-events: none">
+                                        <input class="js-disabled" type="text" id="fotopassport" name="fotopassport" placeholder="Upload an image of your passport (Personal info)" style="pointer-events: none">
                                         <div class="js-icon">
                                             <button type="button" class="mdl-button mdl-js-button mdl-button--icon js-disabled" onclick="subirPasaporte()">
                                                 <i class="mdi mdi-backup"></i>
@@ -364,8 +364,18 @@
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <div class="js-input js-flex">
+                                        <input class="js-disabled" type="text" id="fotoblankpassport" name="fotoblankpassport" placeholder="Upload an image of two blank pages of your passport" style="pointer-events: none">
+                                        <div class="js-icon">
+                                            <button type="button" class="mdl-button mdl-js-button mdl-button--icon js-disabled" onclick="subirBlankPasaporte()">
+                                                <i class="mdi mdi-backup"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class=" js-input">
-                                        <label for="text">How many blank pages do you left on your passport?</label>
+                                        <label for="text">How many blank pages do you have left on your passport?</label>
                                         <input type="text" id="page">
                                     </div>
                                 </div>
@@ -427,6 +437,10 @@
     </footer>
     <form id="frmArchivo" method="post" style="display: none;">
         <input id="archivo" type="file" name="archivo" accept=".jpg,.jpeg,.png,.svg" />
+        <input type="hidden" name="MAX_FILE_SIZE" value="2000000"/>
+    </form>
+    <form id="frmBlank" method="post" style="display: none;">
+        <input id="blank" type="file" name="blank" accept=".jpg,.jpeg,.png,.svg" />
         <input type="hidden" name="MAX_FILE_SIZE" value="2000000"/>
     </form>
     <script src="<?php echo RUTA_JS?>jquery-3.2.1.min.js?v=<?php echo time();?>"></script>

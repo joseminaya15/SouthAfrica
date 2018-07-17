@@ -75,3 +75,23 @@ function openModalPassport(id){
       } else { return; }
     });
 }
+function openModalBlankPassport(id){
+  var modal = $('#modalBlankPasaporte');
+  var id = id;
+  var ruta = '';
+  $.ajax({
+    data : { id : id},
+    url  : 'admin/muestraBlankPasaporte',
+    type : 'POST'
+  }).done(function(data){
+    data = JSON.parse(data);
+    if(data.error == 0 ){
+      if(data.imagen != "") {
+        $('#imgBlankDocumento').attr("src", data.imagen);
+      }else{
+        $('#imgBlankDocumento').text("IMAGEN NO ENCONTRADA");
+      }
+      modal.modal('toggle');
+    }else { return; }
+  });
+}
