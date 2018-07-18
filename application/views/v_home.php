@@ -77,102 +77,113 @@
             <div class="js-card">
                 <ul class="nav nav-tabs" role="tablist">
                     <li class="active"><a href="#itinerary" aria-controls="itinerary" role="tab" data-toggle="tab">About Itinerary</a></li>
-                    <li><a href="#southafrica" aria-controls="southafrica" role="tab" data-toggle="tab">About South Africa</a></li>
-                    <li><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab">Documentation</a></li>
+                    <li><a href="#southafrica" aria-controls="southafrica" role="tab" data-toggle="tab">About South Africa and Documentation</a></li>
                 </ul>
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane fade in active" id="itinerary">
                         <div class="js-information p-10">
                             <h2>Qatar</h2>
-                            <p>Qatar Airlines will provide the entire group with the following services while on the stop-over in Doha:</p>
-                            <p>Qatar Airlines will have for each passenger appropriate short-term tourist visas available upon arrival, and will transfer the group to the respective hotel near Doha International Airport. For this reason, we need to have copies of the passport pages from all participants 3 weeks prior to the travel date!</p>
+                            <p>Qatar Airlines will have for each passenger appropriate short-term tourist visas available upon arrival</p>
+                            <strong>Disclaimer:</strong>
+                            <p>Global Travel Leaders and Hewlett Packard Enterprise are unable to provide visa services. It is the responsibility of each traveler to ensure that they have proper documentation and, if required, Visas processed for South Africa.</p>
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="southafrica">
                         <div class="js-information p-10">
                             <h2>South Africa</h2>
-                            <p>We recently became aware of conflicting information published on certain airline and government websites regarding entry requirements for South Africa. We are writing to alert you of the situation so you can take any necessary action to ensure your documents are in order. Information provided pertains to U.S. passport holders only. Non-U.S. Citizens should check with the appropriate foreign consular representative.</p>
-                            <p>While guests are responsible to obtain the proper travel documents for destinations on your itinerary, U.S. passport holders visiting South Africa for tourism purposes for less than 90 days do not need a visa however their passport must contain at least two consecutive, entirely blank (unstamped) visa pages PER ENTRY into South Africa and be valid for at least 6 months after the intended return. Therefore guests continuing on to Zimbabwe and/or Botswana and returning back to South Africa are required to have at least four blank visa pages. These pages are in addition to the endorsement/amendment pages at the back of the passport. South African government regulations prohibit airlines from boarding passengers without required blank pages and passport validity.</p>
-                            <p>It is vital that you provide all travelers with links to the following websites in order to obtain all necessary information about visas: </p>
-                            <p>Official South African website: <a href="http://www.dha.gov.za/index.php/immigration-services/exempt-countries" target="_blank">http://www.dha.gov.za/index.php/immigration-services/exempt-countries</a></p>
-                            <p>Website: <a href="http://www.southafrica-newyork.net/homeaffairs/forms/dha_73_form.pdf" target="_blank">http://www.southafrica-newyork.net/homeaffairs/forms/dha_73_form.pdf</a></p>
-                            <p>Global Travel Leaders is unable to provide visa services. It is the responsibility of each traveler to ensure that they have proper documentation and, if required, Visas processed for South Africa. If a participant resides in the US and needs a visa due to his/her citizenship, that person can use the services of <a href="https://www.passportsandvisas.com/visas/south-africa/tourist" target="_blank">https://www.passportsandvisas.com/visas/south-africa/tourist</a> or call : <a href="tel:+1855-399-1189">855-399-1189</a></p>
-                        </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade" id="documentation">
-                        <div class="js-information p-10">
-                            <h2>Countries falling within the Yellowfever Belt</h2>
-                            <p>Vaccination should be approved by the World Health Organization (WHO) and administered at least 10 days before departure for South Africa at any yellow fever approved vaccination centers as the vaccine offers protection 10 days after administration. If vaccination is administered less than 10 days before departure, traveler may be refused entry.</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <strong>Africa</strong>
-                                </div>
-                                <div class="col-xs-12">
-                                    <div class="col-sm-6">
-                                        <ul>
-                                            <li>Angola</li>
-                                            <li>Benin</li>
-                                            <li>Burkina Faso</li>
-                                            <li>Burundi</li>
-                                            <li>Cameroon</li>
-                                            <li>Central African Republic</li>
-                                            <li>Chad</li>
-                                            <li>Congo</li>
-                                            <li>Cote d'Ivoire</li>
-                                            <li>Democratic Republic of the Congo</li>
-                                            <li>Equatorial Guinea</li>
-                                            <li>Ethiopia</li>
-                                            <li>Gabon</li>
-                                            <li>Gambia</li>
-                                            <li>Ghana</li>
-                                        </ul>
+                            <p>Each traveller is responsible to obtain the proper travel documents for destinations on your itinerary and, if required, Visas processed for South Africa</p>
+                            <p>For information about Visas: <a href="http://www.dha.gov.za/" target="_blank">http://www.dha.gov.za/</a></p>
+                            <ul>
+                                <li>Applying for a South Africa Visa: <a href="http://www.dha.gov.za/index.php/immigration-services/apply-for-a-south-african-visa" target="_blank">http://www.dha.gov.za/index.php/immigration-services/apply-for-a-south-african-visa</a></li>
+                                <li>Countries exempt from South African Visas: <a href="http://www.dha.gov.za/index.php/immigration-services/exempt-countries" target="_blank">http://www.dha.gov.za/index.php/immigration-services/exempt-countries</a></li>
+                                <li>South African representation abroad: <a href="http://www.dirco.gov.za/foreign/sa_abroad/index.htm" target="_blank">http://www.dirco.gov.za/foreign/sa_abroad/index.htm</a></li>
+                                <li><strong>How long does it take to obtain a South Africa visa?</strong> Typically, a visa takes anywhere from 5 days to 15+ days to process in the South Africa Embassy/Consulate depending on the consulate that you need to send the application. The processing time for a visa is dependent on several factors and can change without notice at the consulate's discretion</li>
+                                <li><strong>Yellow Fever vaccines:</strong> Yellow fever certificates are required if your journey starts or entails passing through the yellow fever belt of Africa or South America.</li>
+                                <strong>They should be administered at least 10 days before departure to South Africa.</strong>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <strong>Africa</strong>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <ul>
-                                            <li>Guinea</li>
-                                            <li>Guinea-Bissau</li>
-                                            <li>Kenya</li>
-                                            <li>Liberia</li>
-                                            <li>Mali</li>
-                                            <li>Mauritania</li>
-                                            <li>Niger</li>
-                                            <li>Nigeria</li>
-                                            <li>Senegal</li>
-                                            <li>Sierra Leone</li>
-                                            <li>Sudan</li>
-                                            <li>Sudan</li>
-                                            <li>Togo</li>
-                                            <li>Uganda</li>
-                                        </ul>
+                                    <div class="col-xs-12">
+                                        <div class="col-sm-6">
+                                            <ul>
+                                                <li>Angola</li>
+                                                <li>Benin</li>
+                                                <li>Burkina Faso</li>
+                                                <li>Burundi</li>
+                                                <li>Cameroon</li>
+                                                <li>Central African Republic</li>
+                                                <li>Chad</li>
+                                                <li>Congo</li>
+                                                <li>Cote d'Ivoire</li>
+                                                <li>Democratic Republic of the Congo</li>
+                                                <li>Equatorial Guinea</li>
+                                                <li>Ethiopia</li>
+                                                <li>Gabon</li>
+                                                <li>Gambia</li>
+                                                <li>Ghana</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <ul>
+                                                <li>Guinea</li>
+                                                <li>Guinea-Bissau</li>
+                                                <li>Kenya</li>
+                                                <li>Liberia</li>
+                                                <li>Mali</li>
+                                                <li>Mauritania</li>
+                                                <li>Niger</li>
+                                                <li>Nigeria</li>
+                                                <li>Senegal</li>
+                                                <li>Sierra Leone</li>
+                                                <li>Sudan</li>
+                                                <li>Sudan</li>
+                                                <li>Togo</li>
+                                                <li>Uganda</li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-xs-12">
-                                    <strong>Central and South America</strong>
-                                </div>
-                                <div class="col-xs-12">
-                                    <div class="col-sm-6">
-                                        <ul>
-                                            <li>ArgentinaBolivia</li>
-                                            <li>Bolivia</li>
-                                            <li>Brazil</li>
-                                            <li>Colombia</li>
-                                            <li>Ecuador</li>
-                                            <li>French Guyana</li>
-                                            <li>Guyana</li>
-                                        </ul>
+                                    <div class="col-xs-12">
+                                        <strong>Central and South America</strong>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <ul>
-                                            <li>Panama</li>
-                                            <li>Paraguay</li>
-                                            <li>Peru</li>
-                                            <li>Surinam</li>
-                                            <li>Trinidad and Tobago</li>
-                                            <li>Venezuela</li>
-                                        </ul>
+                                    <div class="col-xs-12">
+                                        <div class="col-sm-6">
+                                            <ul>
+                                                <li>ArgentinaBolivia</li>
+                                                <li>Bolivia</li>
+                                                <li>Brazil</li>
+                                                <li>Colombia</li>
+                                                <li>Ecuador</li>
+                                                <li>French Guyana</li>
+                                                <li>Guyana</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <ul>
+                                                <li>Panama</li>
+                                                <li>Paraguay</li>
+                                                <li>Peru</li>
+                                                <li>Surinam</li>
+                                                <li>Trinidad and Tobago</li>
+                                                <li>Venezuela</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </ul>
+                            <strong>Please send ASAP:</strong>
+                            <ul>
+                                <li>Copies of passport 4 weeks prior to travel. This is required by Qatar Airlines in order to process the Visas. </li>
+                                <li>Passports need to have at least two consecutive entirely blank pages per entry into South Africa.</li>
+                                <li>Passports must be valid for at least 6 months after the intended return.</li>
+                            </ul>
+                            <strong>More information:</strong>
+                            <ul>
+                                <li>Visa exempt country citizens: While guests are responsible to obtain the proper travel documents for destinations on your itinerary, visa exempt country passport holders visiting South Africa for tourism purposes for less than 90 days do not need a visa however their <strong>passport must contain at least two consecutive, entirely blank (unstamped) visa pages PER ENTRY into South Africa and be valid for at least 6 months after the intended return.</strong> Therefore guests continuing on to Zimbabwe and/or Botswana and returning back to South Africa are required to have at least four blank visa pages. These pages are in addition to the endorsement/amendment pages at the back of the passport. South African government regulations prohibit airlines from boarding passengers without required blank pages and passport validity.</li>
+                                <li>US Residents:  If a participant resides in the US and needs a visa due to his/her citizenship, that person can use the services of <a href="https://www.passportsandvisas.com/visas/south-africa/tourist" target="_blank">https://www.passportsandvisas.com/visas/south-africa/tourist</a> or call: <a href="tel:855-399-1189">855-399-1189</a></li>
+                            </ul>
+                            <strong>Disclaimer:</strong>
+                            <p>Global Travel Leaders and Hewlett Packard Enterprise are unable to provide visa services. It is the responsibility of each traveler to ensure that they have proper documentation and, if required, Visas processed for South Africa.</p>
                         </div>
                     </div>
                 </div>
