@@ -59,6 +59,10 @@
                                 <th class="text-left" style="display: none">País Emisor</th>
                                 <th class="text-left" style="display: none">Género</th>
                                 <th class="text-center" style="display: none">Fecha Cumpleaños</th>
+                                <th class="text-left" style="display: none">Direccion</th>
+                                <th class="text-left" style="display: none">Estado</th>
+                                <th class="text-left" style="display: none">C&oacute;digo Zip</th>
+                                <th class="text-left" style="display: none">Seguro de Viaje</th>
                                 <th class="text-left" style="display: none">Nacionalidad</th>
                                 <th class="text-left" style="display: none">Ciudad Referencia</th>
                                 <th class="text-left" style="display: none">Visa Invitation</th>

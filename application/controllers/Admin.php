@@ -20,11 +20,13 @@ class Admin extends CI_Controller {
         $html  = '';
         $cont  = 1;
         $invitado = '';
+        $seguro = '';
         if(count($datos) == 0) {
             $html = '';
         }else {
             foreach ($datos as $key){
                 $invitado = $key->flg_invitacion == 1 ? 'Si' : 'No';
+                $seguro = $key->flg_seguro == 1 ? 'Si' : 'No';
                 $html .= '<tr class="tr-cursor-pointer" data-idSolicitud="'.$cont.'">
                             <td class="text-left">'.$key->primer_nombre.' '.$key->apellidos.'</td>
                             <td class="text-left">'.$key->empresa.'</td>
@@ -53,6 +55,10 @@ class Admin extends CI_Controller {
                             <td class="text-left" style="display: none;">'.$key->pais_emisor.'</td>
                             <td class="text-left" style="display: none;">'.$key->genero.'</td>
                             <td class="text-center" style="display: none;">'.$key->fecha_cumple.'</td>
+                            <td class="text-left" style="display: none;">'.$key->direccion.'</td>
+                            <td class="text-left" style="display: none;">'.$key->estado.'</td>
+                            <td class="text-left" style="display: none;">'.$key->codigo_estado.'</td>
+                            <td class="text-left" style="display: none;">'.$seguro.'</td>
                             <td class="text-left" style="display: none;">'.$key->nacionalidad.'</td>
                             <td class="text-left" style="display: none;">'.$key->ciudad_referencia.'</td>
                             <td class="text-left" style="display: none;">'.$invitado.'</td>

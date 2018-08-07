@@ -39,6 +39,10 @@ class Home extends CI_Controller {
 			$paisEmisor 	= $this->input->post('paisEmisor');
 			$genero 		= $this->input->post('genero');
 			$fechaCumple 	= implode("-", array_reverse(explode("/", $this->input->post('fechaCumple'))));
+			$direccion 	    = $this->input->post('direccion');
+			$estado     	= $this->input->post('estado');
+			$codigoEstado 	= $this->input->post('codigoEstado');
+			$flgSeguro 	    = $this->input->post('flgSeguro');
 			$nacionalidad 	= $this->input->post('nacionalidad');
 			$ciudadReferen 	= $this->input->post('ciudadReferen');
 			$flgInvitacion 	= $this->input->post('flgInvitacion');
@@ -70,6 +74,10 @@ class Home extends CI_Controller {
 								   'pais_emisor'		=> $paisEmisor,
 								   'genero'				=> $genero,
 								   'fecha_cumple'		=> $fechaCumple,
+								   'direccion'		    => $direccion,
+								   'estado'		        => $estado,
+								   'codigo_estado'		=> $codigoEstado,
+								   'flg_seguro'		    => $flgSeguro,
 								   'nacionalidad'		=> $nacionalidad,
 								   'ciudad_referencia'	=> $ciudadReferen,
 								   'flg_invitacion'		=> $flgInvitacion,

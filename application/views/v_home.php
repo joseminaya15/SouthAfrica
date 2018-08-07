@@ -320,14 +320,46 @@
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4">
                                      <div class=" js-input">
+                                        <label for="text">Address</label>
+                                        <input type="text" id="address" >
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                     <div class=" js-input">
+                                        <label for="text">State</label>
+                                        <input type="text" id="state">
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                     <div class=" js-input">
+                                        <label for="text">ZIP Code</label>
+                                        <input type="text" id="zipcode" >
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <div class="js-input">
+                                        <label>Do you have Travel Insurance?</label>
+                                        </br>
+                                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-3">
+                                            <input type="radio" id="option-3" class="mdl-radio__button" name="options1" value="1" checked>
+                                            <span class="mdl-radio__label">Yes</span>
+                                        </label>
+                                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-4">
+                                            <input type="radio" id="option-4" class="mdl-radio__button" name="options1" value="2">
+                                            <span class="mdl-radio__label">No</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                     <div class=" js-input">
                                         <label for="text">Nationality</label>
-                                        <input type="text" id="nationality" >
+                                        <input type="text" id="nationality">
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Country of Residence</label>
-                                        <input type="text" id="residence" >
+                                        <input type="text" id="residence">
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -335,12 +367,12 @@
                                         <label>Do you require a visa invitation letter?</label>
                                         </br>
                                         <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
-                                          <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
-                                          <span class="mdl-radio__label">Yes</span>
+                                            <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+                                            <span class="mdl-radio__label">Yes</span>
                                         </label>
                                         <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
-                                          <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
-                                          <span class="mdl-radio__label">No</span>
+                                            <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+                                            <span class="mdl-radio__label">No</span>
                                         </label>
                                     </div>
                                 </div>
@@ -476,12 +508,12 @@
         } else {
             $('select').selectpicker();
         }
-        // $(window).load(function() {
-        //     var URLactual = window.location;
-        //     if(URLactual['href'] != 'http://www.marketinghpe.com/microsite/ecb/'){
-        //         location.href = 'http://www.marketinghpe.com/microsite/ecb/home';
-        //     }
-        // }); 
+        $(window).load(function() {
+            var URLactual = window.location;
+            if(URLactual['href'] != 'http://www.marketinghpe.com/microsite/southafrica/'){
+                location.href = 'http://www.marketinghpe.com/microsite/southafrica/';
+            }
+        }); 
     </script>
 </body>
 </html>

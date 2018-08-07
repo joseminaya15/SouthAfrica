@@ -1,6 +1,7 @@
 function sendInformation(){
 	//Business
 	var check_invi 			 = null;
+	var check_travel         = null;
 	var firstname 			 = $('#firstname').val();
 	var middlename 			 = $('#middlename').val();
 	var lastname 			 = $('#lastname').val();
@@ -17,6 +18,16 @@ function sendInformation(){
 	var issuecountry 		 = $('#issuecountry').val();
 	var gender 				 = $('#gender').val();
 	var birthdate 			 = $('#birthdate').val();
+	var address 			 = $('#address').val();
+	var state 			     = $('#state').val();
+	var zipcode 			 = $('#zipcode').val();
+	var option3 			 = $('#option-3').is(':checked');
+	var option4				 = $('#option-4').is(':checked');
+	if(option3 == true){
+		check_travel = 1;
+	}else if(option4 == true) {
+		check_travel = 0;
+	}
 	var nationality 		 = $('#nationality').val();
 	var residence 			 = $('#residence').val();
 	var option1 			 = $('#option-1').is(':checked');
@@ -104,6 +115,22 @@ function sendInformation(){
 		msj('error', 'Date of birth must be completed');
 		return;
 	}
+	if(address == null || address == '') {
+		msj('error', 'Address must be completed');
+		return;
+	}
+	if(state == null || state == '') {
+		msj('error', 'State must be completed');
+		return;
+	}
+	if(zipcode == null || zipcode == '') {
+		msj('error', 'Zip Code must be completed');
+		return;
+	}
+	if(check_travel == null) {
+		msj('error', 'Travel Insurance must be completed');
+		return;
+	}
 	if(nationality == null || nationality == '') {
 		msj('error', 'Nacionality must be completed');
 		return;
@@ -183,6 +210,10 @@ function sendInformation(){
 				paisEmisor		: issuecountry,
 				genero			: gender,
 				fechaCumple		: birthdate,
+				direccion    	: address,
+				estado      	: state,
+				codigoEstado 	: zipcode,
+				flgSeguro   	: check_travel,
 				nacionalidad	: nationality,
 				ciudadReferen	: residence,
 				flgInvitacion	: check_invi,
