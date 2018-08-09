@@ -181,7 +181,7 @@ function sendInformation(){
 		return;
 	}
 	if(!validateNumber(page)){
-		msj('error', 'Only numbers');
+		msj('error', 'Pages only numbers');
 		return;
 	}
 	//Contacto emergencia
@@ -243,7 +243,7 @@ function sendInformation(){
 				$('.js-input').find('select').val('0');
 				$('.js-input').find('select').selectpicker('refresh');
 				$('#confirmation').addClass('aparecer');
-				// msj('success', 'Register Completed');
+				msj('success', 'Register Completed');
         	}else{
         		return;
         	}
