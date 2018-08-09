@@ -326,14 +326,28 @@ function subirBlankPasaporte(){
 $("#archivo").change(function(e) {
 	var files = e.target.files;
     var archivo = files[0].name;
-    archivo = archivo.replace(/\s/g,"_");
-	$('#fotopassport').val(archivo);
+    var nuevo = archivo.split(".");
+    var contador = nuevo.length;
+    if (nuevo[contador-1] == 'svg' || nuevo[contador-1] == 'jpeg' || nuevo[contador-1] == 'jpg' || nuevo[contador-1] == 'png') {
+	    archivo = archivo.replace(/\s/g,"_");
+		$('#fotopassport').val(archivo);
+    } else {
+		msj('error', 'Image Passport only svg, jpg, jpeg and png');
+		return;
+    }
 });
 $("#blank").change(function(e) {
 	var files = e.target.files;
     var archivo = files[0].name;
-    archivo = archivo.replace(/\s/g,"_");
-	$('#fotoblankpassport').val(archivo);
+    var nuevo = archivo.split(".");
+    var contador = nuevo.length;
+    if (nuevo[contador-1] == 'svg' || nuevo[contador-1] == 'jpeg' || nuevo[contador-1] == 'jpg' || nuevo[contador-1] == 'png') {
+	    archivo = archivo.replace(/\s/g,"_");
+		$('#fotoblankpassport').val(archivo);
+    } else {
+		msj('error', 'Image of two blank page Passport only svg, jpg, jpeg and png');
+		return;
+    }
 });
 function guardarPhoto(){
 	var datos = new FormData();
