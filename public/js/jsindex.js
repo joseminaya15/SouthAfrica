@@ -180,6 +180,10 @@ function sendInformation(){
 		msj('error', 'Select an image');
 		return;
 	}
+	if(!validateNumber(page)){
+		msj('error', 'Only numbers');
+		return;
+	}
 	//Contacto emergencia
 	if(contact == null || contact == '') {
 		msj('error', 'Contact name must be completed');
@@ -276,6 +280,10 @@ function soloLetras(e){
 function validateEmail(email){
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
+}
+function validateNumber(number){
+    var re = /^\d+$/;
+    return re.test(number);
 }
 var $win = $(window);
 $win.scroll(function () {

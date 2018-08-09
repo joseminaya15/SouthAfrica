@@ -119,7 +119,7 @@ class Home extends CI_Controller {
             if($tamanio > '2000000'){
                 $respuesta->mensaje = 'Image Passport must be less than 2MB';
             }else {
-                if($nuevo[$contador-1] == 'svg' || $nuevo[$contador-1] == 'SVG' || $nuevo[$contador-1] == 'jpeg' || $nuevo[$contador-1] == 'JPEG' || $nuevo[$contador-1] == 'jpg' || $nuevo[$contador-1] == 'JPG' || $nuevo[$contador-1] == 'png'|| $nuevo[$contador-1] == 'PNG' || $nuevo[$contador-1] == 'pdf' || $nuevo[$contador-1] == 'PDF'){
+                if($nuevo[$contador-1] == 'svg' || $nuevo[$contador-1] == 'SVG' || $nuevo[$contador-1] == 'jpeg' || $nuevo[$contador-1] == 'JPEG' || $nuevo[$contador-1] == 'jpg' || $nuevo[$contador-1] == 'JPG' || $nuevo[$contador-1] == 'png'|| $nuevo[$contador-1] == 'PNG'){
                     $target = getcwd().DIRECTORY_SEPARATOR.'public'.DIRECTORY_SEPARATOR.'archivos'.DIRECTORY_SEPARATOR.basename($_FILES['archivo']['name']);
                     if(move_uploaded_file($archivotmp, $target) ){
                        // $respuesta->mensaje = 'Su logo se subió correctamente';
