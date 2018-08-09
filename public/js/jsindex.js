@@ -156,18 +156,10 @@ function sendInformation(){
 		msj('error', 'Image Passport must be completed');
 		return;
 	}
-	// if(!validateNotPdf(photoPassport)){
-	// 	msj('error', 'Image Passport only svg, jpg, jpeg and png');
-	// 	return;
-	// }
 	if(photoBlankPassport == null || photoBlankPassport == '') {
 		msj('error', 'Image of two blank page Passport must be completed');
 		return;
 	}
-	// if(!validateNotPdf(photoBlankPassport)){
-	// 	msj('error', 'Image of two blank page Passport only svg, jpg, jpeg and png');
-	// 	return;
-	// }
 	if(page == null || page == '') {
 		msj('error', 'Pages must be completed');
 		return;
@@ -293,10 +285,6 @@ function validateNumber(number){
     var re = /^\d+$/;
     return re.test(number);
 }
-// function validateNotPdf(pdf){
-//     var re = /.+(?=.pdf|.PDF)/;
-//     return re.test(pdf);
-// }
 var $win = $(window);
 $win.scroll(function () {
 	if ($win.scrollTop() > 45) {
