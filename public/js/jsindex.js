@@ -304,24 +304,16 @@ function subirBlankPasaporte(){
 	$("#blank").trigger("click");
 }
 $("#archivo").change(function(e) {
-	var files = e.target.files,
-	    filesLength = files.length;
-	for (var i = 0; i < filesLength ; i++) {
-		var f = files[i]
-		var archivo = (f.name).replace(" ","");
-		nombre = archivo; 
-	}
-	$('#fotopassport').val(nombre);
+	var files = e.target.files;
+    var archivo = files[0].name;
+    archivo = archivo.replace(/\s/g,"_");
+	$('#fotopassport').val(archivo);
 });
 $("#blank").change(function(e) {
-	var files = e.target.files,
-	    filesLength = files.length;
-	for (var i = 0; i < filesLength ; i++) {
-		var f = files[i]
-		var archivo = (f.name).replace(" ","");
-		nombre = archivo; 
-	}
-	$('#fotoblankpassport').val(nombre);
+	var files = e.target.files;
+    var archivo = files[0].name;
+    archivo = archivo.replace(/\s/g,"_");
+	$('#fotoblankpassport').val(archivo);
 });
 function guardarPhoto(){
 	var datos = new FormData();

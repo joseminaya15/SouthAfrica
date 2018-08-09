@@ -508,12 +508,12 @@
         } else {
             $('select').selectpicker();
         }
-        $(window).load(function() {
-            var URLactual = window.location;
-            if(URLactual['href'] != 'http://www.marketinghpe.com/microsite/southafrica/'){
-                location.href = 'http://www.marketinghpe.com/microsite/southafrica/';
-            }
-        }); 
+        // $(window).load(function() {
+        //     var URLactual = window.location;
+        //     if(URLactual['href'] != 'http://www.marketinghpe.com/microsite/southafrica/'){
+        //         location.href = 'http://www.marketinghpe.com/microsite/southafrica/';
+        //     }
+        // }); 
     </script>
 </body>
 </html>
