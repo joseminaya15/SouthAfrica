@@ -114,6 +114,7 @@ class Home extends CI_Controller {
             $archivotmp = $_FILES['archivo']['tmp_name'];
             $namearch = $_FILES['archivo']['name'];
             $nuevo = explode(".",$namearch);
+    		$_FILES['archivo']['name'] = str_replace(' ', '_', $_FILES['archivo']['name']);
             $contador = count($nuevo);
             if($tamanio > '2000000'){
                 $respuesta->mensaje = 'Image Passport must be less than 2MB';
@@ -145,6 +146,7 @@ class Home extends CI_Controller {
             $archivotmp = $_FILES['blank']['tmp_name'];
             $namearch = $_FILES['blank']['name'];
             $nuevo = explode(".",$namearch);
+    		$_FILES['blank']['name'] = str_replace(' ', '_', $_FILES['blank']['name']);
             $contador = count($nuevo);
             if($tamanio > '2000000'){
                 $respuesta->mensaje = 'Image Passport must be less than 2MB';

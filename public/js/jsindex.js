@@ -239,7 +239,7 @@ function sendInformation(){
 				$('.js-input').find('select').val('0');
 				$('.js-input').find('select').selectpicker('refresh');
 				$('#confirmation').addClass('aparecer');
-				msj('success', 'Register Completed');
+				// msj('success', 'Register Completed');
         	}else{
         		return;
         	}
