@@ -190,7 +190,7 @@
             </div>
         </div>
     </section>
-    <section id="register" class="js-section js-white">
+    <section id="register" class="js-section js-white" style="display: none;">
         <div class="js-container">
             <div class="js-title">
                 <h2>REGISTER</h2>
