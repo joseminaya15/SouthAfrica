@@ -1,0 +1,123 @@
+$light     = 'MetricLight'
+$regular   = 'MetricRegular'
+$medium    = 'MetricSemiBold'
+$bold      = 'MetricBold'
+$color     = #415564
+fixed()
+	position fixed
+	top 0
+	left 0
+	right 0
+	bottom 0
+flexCenter()
+	display flex
+	display -webkit-flex
+	align-items center
+flexStart()
+	display flex
+	display -webkit-flex
+	align-items start
+flexEnd()
+	display flex
+	display -webkit-flex
+	align-items flex-end
+transitionMaxWidth()
+	-webkit-transition max-width .3s linear
+	-moz-transition max-width .3s linear
+	-ms-transition max-width .3s linear
+	-o-transition max-width .3s linear
+	transition max-width .3s linear
+body
+	margin 0
+	padding 0
+	font-family $regular
+	color #000000
+	background-color #FFFFFF
+.js-section
+	position relative
+	padding 40px 20px
+	&.js-section--admin
+		margin-top 50px
+.js-flex
+	flexCenter()
+	justify-content center
+.js-flex--start
+	flexStart()
+	justify-content center
+.js-height
+	height 100vh
+.js-container
+	transitionMaxWidth()
+	height 100%
+	width 100%
+	max-width 1150px
+	margin auto
+.js-header--survey
+	flexCenter()
+	width 100%
+	background-color transparent
+	padding 10px
+	img
+		width 100%
+		max-width 150px
+	.js-header--left
+		flexCenter()
+		width 100%
+		justify-content flex-start
+	.js-header--right
+		flexCenter()
+		width 100%
+		justify-content flex-end
+.js-title__survey
+	color #FFFFFF
+	img
+		max-width 250px
+	h2
+		margin 10px 0
+		font-family $medium
+		font-size 36px
+		line-height 32px
+	p
+		font-size 20px
+		margin 10px 0
+.js-fondo
+	fixed()
+	background url(../img/fondo/fondo-home.jpg) no-repeat center center
+	background-size cover !important
+	width 100%
+	height 100%
+	z-index -1
+	&:BEFORE
+		fixed()
+		content ''
+		background-color #000000
+		z-index 0
+		height 100vh
+		opacity .5
+	&:AFTER
+		display none
+.js-card__encuesta
+	width 100%
+	box-shadow 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+	padding 30px
+	background-color #FFFFFF
+	.js-encuesta
+		.js-encuesta__title
+			p
+				margin 10px 0
+		.js-encuesta__contenido
+			.js-radio
+				display inline-block
+				margin 5px 10px
+	.js-card__encuesta--actions
+		button
+			text-transform none
+			background-color #01A982
+			color #FFFFFF
+			font-family $medium
+			font-size 18px
+			line-height 18px
+.js-text__final
+	font-size 24px
+	line-height 24px
+	font-family $medium
