@@ -44,13 +44,13 @@
                 <div class="js-card__encuesta">
                     <div class="js-encuesta">
                         <div class="js-encuesta__title">
-                            <p><strong>1.</strong> Which session was more relevant for you?</p>
+                            <p><strong>1.</strong> The HPE and Aruba producs included in the promo were the most suitable.</p>
                         </div>
                         <div class="js-encuesta__contenido">
                             <div class="js-radio">
                                 <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question1-1">
                                     <input type="radio" id="question1-1" class="mdl-radio__button" name="options1" value="Si">
-                                    <span class="mdl-radio__label">Si</span>
+                                    <span class="mdl-radio__label">Yes</span>
                                 </label>
                             </div>
                             <div class="js-radio">
@@ -63,13 +63,13 @@
                     </div>
                     <div class="js-encuesta">
                         <div class="js-encuesta__title">
-                            <p><strong>2.</strong> Which session was more relevant for you?</p>
+                            <p><strong>2.</strong> Communications about the promo (announcement, monthly rankings and winners) were clear and transmitted by the most appropriate channels.</p>
                         </div>
                         <div class="js-encuesta__contenido">
                             <div class="js-radio">
                                 <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question2-1">
                                     <input type="radio" id="question2-1" class="mdl-radio__button" name="options2" value="Si">
-                                    <span class="mdl-radio__label">Si</span>
+                                    <span class="mdl-radio__label">Yes</span>
                                 </label>
                             </div>
                             <div class="js-radio">
@@ -82,7 +82,7 @@
                     </div>
                     <div class="js-encuesta">
                         <div class="js-encuesta__title">
-                            <p><strong>3.</strong> Which session was more relevant for you?</p>
+                            <p><strong>3.</strong> There was a good pre-trip organization.</p>
                         </div>
                         <div class="js-encuesta__contenido">
                             <div class="js-radio">
@@ -101,7 +101,7 @@
                     </div>
                     <div class="js-encuesta">
                         <div class="js-encuesta__title">
-                            <p><strong>4.</strong> Which session was more relevant for you?</p>
+                            <p><strong>4.</strong> There was a good organization during the trip.</p>
                         </div>
                         <div class="js-encuesta__contenido">
                             <div class="js-radio">
@@ -120,7 +120,7 @@
                     </div>
                     <div class="js-encuesta">
                         <div class="js-encuesta__title">
-                            <p><strong>5.</strong> Which session was more relevant for you?</p>
+                            <p><strong>5.</strong> The services provided at The Cape Milner Hotel were satisfactory.</p>
                         </div>
                         <div class="js-encuesta__contenido">
                             <div class="js-radio">
@@ -139,7 +139,7 @@
                     </div>
                     <div class="js-encuesta">
                         <div class="js-encuesta__title">
-                            <p><strong>6.</strong> Which session was more relevant for you?</p>
+                            <p><strong>6.</strong> The agenda organized during the stay at The Cape Milner Hotel fulfilled all expectations.</p>
                         </div>
                         <div class="js-encuesta__contenido">
                             <div class="js-radio">
@@ -158,7 +158,7 @@
                     </div>
                     <div class="js-encuesta">
                         <div class="js-encuesta__title">
-                            <p><strong>7.</strong> Which session was more relevant for you?</p>
+                            <p><strong>7.</strong> The services offered at Mabula Game Lodge were satisfactory.</p>
                         </div>
                         <div class="js-encuesta__contenido">
                             <div class="js-radio">
@@ -177,7 +177,7 @@
                     </div>
                     <div class="js-encuesta">
                         <div class="js-encuesta__title">
-                            <p><strong>8.</strong> Which session was more relevant for you?</p>
+                            <p><strong>8.</strong> The agenda organized during the stay at Mabula Game Lodge fulfilled all expectations.</p>
                         </div>
                         <div class="js-encuesta__contenido">
                             <div class="js-radio">
@@ -196,7 +196,7 @@
                     </div>
                     <div class="js-encuesta">
                         <div class="js-encuesta__title">
-                            <p><strong>9.</strong> Which session was more relevant for you?</p>
+                            <p><strong>9.</strong> The shuttle service was adequate (transfer times and driving style).</p>
                         </div>
                         <div class="js-encuesta__contenido">
                             <div class="js-radio">
@@ -215,7 +215,7 @@
                     </div>
                     <div class="js-encuesta">
                         <div class="js-encuesta__title">
-                            <p><strong>10.</strong> Which session was more relevant for you?</p>
+                            <p><strong>10.</strong> The tour guides were quite informed of the subject and were willing to answer all the questions.</p>
                         </div>
                         <div class="js-encuesta__contenido">
                             <div class="js-radio">
@@ -234,7 +234,7 @@
                     </div>
                     <div class="js-encuesta">
                         <div class="js-encuesta__title">
-                            <p><strong>11.</strong> Which session was more relevant for you?</p>
+                            <p><strong>11.</strong> The HPE team was aware of the well-being of all the attendees and was concerned about the correct conduct of all the activities.</p>
                         </div>
                         <div class="js-encuesta__contenido">
                             <div class="js-radio">
@@ -253,13 +253,13 @@
                     </div>
                     <div class="js-encuesta">
                         <div class="js-encuesta__title">
-                            <p><strong>12.</strong> Which session was more relevant for you?</p>
+                            <p><strong>12.</strong> The last trip to South Africa is better compared to other HPE incentives.</p>
                         </div>
                         <div class="js-encuesta__contenido">
                             <div class="js-radio">
                                 <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question12-1">
                                     <input type="radio" id="question12-1" class="mdl-radio__button" name="options12" value="Si">
-                                    <span class="mdl-radio__label">Si</span>
+                                    <span class="mdl-radio__label">Yes</span>
                                 </label>
                             </div>
                             <div class="js-radio">
@@ -272,13 +272,13 @@
                     </div>
                     <div class="js-encuesta">
                         <div class="js-encuesta__title">
-                            <p><strong>13.</strong> Which session was more relevant for you?</p>
+                            <p><strong>13.</strong> The last trip to South Africa is better than the incentives provided by other companies in the segment.</p>
                         </div>
                         <div class="js-encuesta__contenido">
                             <div class="js-radio">
                                 <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question13-1">
                                     <input type="radio" id="question13-1" class="mdl-radio__button" name="options13" value="Si">
-                                    <span class="mdl-radio__label">Si</span>
+                                    <span class="mdl-radio__label">Yes</span>
                                 </label>
                             </div>
                             <div class="js-radio">
@@ -291,13 +291,13 @@
                     </div>
                     <div class="js-encuesta">
                         <div class="js-encuesta__title">
-                            <p><strong>14.</strong> Which session was more relevant for you?</p>
+                            <p><strong>14.</strong> I would participate in a forthcoming incentive activity organized by HPE and Aruba</p>
                         </div>
                         <div class="js-encuesta__contenido">
                             <div class="js-radio">
                                 <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question14-1">
                                     <input type="radio" id="question14-1" class="mdl-radio__button" name="options14" value="Si">
-                                    <span class="mdl-radio__label">Si</span>
+                                    <span class="mdl-radio__label">Yes</span>
                                 </label>
                             </div>
                             <div class="js-radio">
@@ -310,7 +310,7 @@
                     </div>
                     <div class="js-encuesta">
                         <div class="js-encuesta__title">
-                            <p><strong>15.</strong> Which session was more relevant for you?</p>
+                            <p><strong>15.</strong> What aspects would you change/improve on the HPE Incentive Plan for the next few years?</p>
                         </div>
                         <div class="js-encuesta__contenido">
                             <div class="js-radio">
@@ -329,7 +329,7 @@
                     </div>
                     <div class="js-encuesta">
                         <div class="js-encuesta__title">
-                            <p><strong>16.</strong> Which session was more relevant for you?</p>
+                            <p><strong>16.</strong> Which destination would you recommend for a similar activity?</p>
                         </div>
                         <div class="js-encuesta__contenido">
                             <div class="js-radio">
@@ -348,7 +348,7 @@
                     </div>
                     <div class="js-encuesta">
                         <div class="js-encuesta__title">
-                            <p><strong>17.</strong> Which session was more relevant for you?</p>
+                            <p><strong>17.</strong> General comments about the HPE experience</p>
                         </div>
                         <div class="js-encuesta__contenido">
                             <div class="js-radio">
