@@ -45,87 +45,87 @@ function enviarEncuesta() {
     var preg17 = $('#comment').val();
     if(preg1 == undefined) {
         toastr.remove();
-        msj('error', 'Responder la pregunta 1');
+        msj('error', 'Answer is missing - #1');
         return;
     }
     if(preg2 == undefined) {
         toastr.remove();
-        msj('error', 'Responder la pregunta 2');
+        msj('error', 'Answer is missing - #2');
         return;
     }
     if(preg3 == undefined) {
         toastr.remove();
-        msj('error', 'Responder la pregunta 3');
+        msj('error', 'Answer is missing - #3');
         return;
     }
     if(preg4 == undefined) {
         toastr.remove();
-        msj('error', 'Responder la pregunta 4');
+        msj('error', 'Answer is missing - #4');
         return;
     }
     if(preg5 == undefined) {
         toastr.remove();
-        msj('error', 'Responder la pregunta 5');
+        msj('error', 'Answer is missing - #5');
         return;
     }
     if(preg6 == undefined) {
         toastr.remove();
-        msj('error', 'Responder la pregunta 6');
+        msj('error', 'Answer is missing - #6');
         return;
     }
     if(preg7 == undefined) {
         toastr.remove();
-        msj('error', 'Responder la pregunta 7');
+        msj('error', 'Answer is missing - #7');
         return;
     }
     if(preg8 == undefined) {
         toastr.remove();
-        msj('error', 'Responder la pregunta 8');
+        msj('error', 'Answer is missing - #8');
         return;
     }
     if(preg9 == undefined) {
         toastr.remove();
-        msj('error', 'Responder la pregunta 9');
+        msj('error', 'Answer is missing - #9');
         return;
     }
     if(preg10 == undefined) {
         toastr.remove();
-        msj('error', 'Responder la pregunta 10');
+        msj('error', 'Answer is missing - #10');
         return;
     }
     if(preg11 == undefined) {
         toastr.remove();
-        msj('error', 'Responder la pregunta 11');
+        msj('error', 'Answer is missing - #11');
         return;
     }
     if(preg12 == undefined) {
         toastr.remove();
-        msj('error', 'Responder la pregunta 12');
+        msj('error', 'Answer is missing - #12');
         return;
     }
     if(preg13 == undefined) {
         toastr.remove();
-        msj('error', 'Responder la pregunta 13');
+        msj('error', 'Answer is missing - #13');
         return;
     }
     if(preg14 == undefined) {
         toastr.remove();
-        msj('error', 'Responder la pregunta 14');
+        msj('error', 'Answer is missing - #14');
         return;
     }
     if(preg15 == '') {
         toastr.remove();
-        msj('error', 'Responder la pregunta 15');
+        msj('error', 'Answer is missing - #15');
         return;
     }
     if(preg16 == '') {
         toastr.remove();
-        msj('error', 'Responder la pregunta 16');
+        msj('error', 'Answer is missing - #16');
         return;
     }
     if(preg17 == '') {
         toastr.remove();
-        msj('error', 'Responder la pregunta 17');
+        msj('error', 'Answer is missing - #17');
         return;
     }
     $.ajax({
@@ -170,6 +170,7 @@ function enviarEncuesta() {
 				$('#aspect').val('');
 				$('#destination').val('');
 				$('#comment').val('');
+                msj('success', 'Thanks for your participation. See you next year!');
             }else {
                 toastr.remove();
                 msj('error', data.msj);

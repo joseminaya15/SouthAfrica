@@ -518,7 +518,6 @@
                             </div>
                         </div>
                     </div>
-                    <h2 class="js-text__final">Thanks for your participation. See you next year!</h2>
                     <div class="js-card__encuesta--actions">
                         <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="enviarEncuesta()">Send</button>
                     </div>
