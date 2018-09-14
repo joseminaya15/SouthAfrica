@@ -56,23 +56,24 @@ class Survey extends CI_Controller {
 			$preg15   = $this->input->post('preg15');
 			$preg16   = $this->input->post('preg16');
 			$preg17   = $this->input->post('preg17');
-			$arrayInsert = array('preg1' => $preg1,
-								'preg2' => $preg2,
-								'preg3' => $preg3,
-								'preg4' => $preg4,
-								'preg5' => $preg5,
-								'preg6' => $preg6,
-								'preg7' => $preg7,
-								'preg8' => $preg8,
-								'preg9' => $preg9,
-								'preg10' => $preg10,
-								'preg11' => $preg11,
-								'preg12' => $preg12,
-								'preg13' => $preg13,
-								'preg14' => $preg14,
-								'preg15' => $preg15,
-								'preg16' => $preg16,
-								'preg17' => $preg17);
+			$arrayInsert = array('id_negocio' => $this->session->userdata('id_negocio'),
+								 'preg_1' => $preg1,
+								 'preg_2' => $preg2,
+								 'preg_3' => $preg3,
+								 'preg_4' => $preg4,
+								 'preg_5' => $preg5,
+								 'preg_6' => $preg6,
+								 'preg_7' => $preg7,
+								 'preg_8' => $preg8,
+								 'preg_9' => $preg9,
+								 'preg_10' => $preg10,
+								 'preg_11' => $preg11,
+								 'preg_12' => $preg12,
+								 'preg_13' => $preg13,
+								 'preg_14' => $preg14,
+								 'preg_15' => $preg15,
+								 'preg_16' => $preg16,
+								 'preg_17' => $preg17);
 			$this->M_reporte->guardarEncuesta($arrayInsert, 'encuesta');
 			$data['error'] = EXIT_SUCCESS;
         }catch(Exception $e) {

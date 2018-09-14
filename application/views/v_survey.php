@@ -47,30 +47,32 @@
                             <p><strong>1.</strong> The HPE and Aruba producs included in the promo were the most suitable.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-number">
-                                <button id="number1-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>1</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number1-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>2</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number1-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>3</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number1-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>4</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number1-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>5</span>
-                                </button>
+                            <div id="pregunta1">
+                                <div class="js-number">
+                                    <button id="number1-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>1</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number1-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>2</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number1-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>3</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number1-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>4</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number1-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>5</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -79,30 +81,32 @@
                             <p><strong>2.</strong> Communications about the promo (announcement, monthly rankings and winners) were clear and transmitted by the most appropriate channels.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-number">
-                                <button id="number2-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>1</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number2-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>2</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number2-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>3</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number2-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>4</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number2-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>5</span>
-                                </button>
+                            <div id="pregunta2">
+                                <div class="js-number">
+                                    <button id="number2-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>1</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number2-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>2</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number2-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>3</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number2-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>4</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number2-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>5</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -111,30 +115,32 @@
                             <p><strong>3.</strong> There was a good pre-trip organization.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-number">
-                                <button id="number3-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>1</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number3-2" data-number="2"  class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>2</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number3-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>3</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number3-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>4</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number3-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>5</span>
-                                </button>
+                            <div id="pregunta3">
+                                <div class="js-number">
+                                    <button id="number3-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>1</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number3-2" data-number="2"  class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>2</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number3-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>3</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number3-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>4</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number3-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>5</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -143,30 +149,32 @@
                             <p><strong>4.</strong> There was a good organization during the trip.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-number">
-                                <button id="number4-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>1</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number4-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>2</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number4-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>3</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number4-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>4</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number4-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>5</span>
-                                </button>
+                            <div id="pregunta4">
+                                <div class="js-number">
+                                    <button id="number4-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>1</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number4-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>2</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number4-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>3</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number4-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>4</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number4-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>5</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -175,30 +183,32 @@
                             <p><strong>5.</strong> The services provided at The Cape Milner Hotel were satisfactory.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-number">
-                                <button id="number5-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>1</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number5-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>2</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number5-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>3</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number5-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>4</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number5-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>5</span>
-                                </button>
+                            <div id="pregunta5">
+                                <div class="js-number">
+                                    <button id="number5-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>1</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number5-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>2</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number5-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>3</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number5-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>4</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number5-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>5</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -207,30 +217,32 @@
                             <p><strong>6.</strong> The agenda organized during the stay at The Cape Milner Hotel fulfilled all expectations.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-number">
-                                <button id="number6-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>1</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number6-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>2</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number6-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>3</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number6-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>4</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number6-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>5</span>
-                                </button>
+                            <div id="pregunta6">
+                                <div class="js-number">
+                                    <button id="number6-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>1</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number6-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>2</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number6-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>3</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number6-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>4</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number6-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>5</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -239,30 +251,32 @@
                             <p><strong>7.</strong> The services offered at Mabula Game Lodge were satisfactory.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-number">
-                                <button id="number7-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>1</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number7-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>2</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number7-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>3</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number7-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>4</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number7-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>5</span>
-                                </button>
+                            <div id="pregunta7">
+                                <div class="js-number">
+                                    <button id="number7-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>1</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number7-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>2</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number7-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>3</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number7-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>4</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number7-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>5</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -271,30 +285,32 @@
                             <p><strong>8.</strong> The agenda organized during the stay at Mabula Game Lodge fulfilled all expectations.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-number">
-                                <button id="number8-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>1</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number8-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>2</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number8-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>3</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number8-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>4</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number8-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>5</span>
-                                </button>
+                            <div id="pregunta8">
+                                <div class="js-number">
+                                    <button id="number8-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>1</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number8-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>2</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number8-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>3</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number8-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>4</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number8-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>5</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -303,30 +319,32 @@
                             <p><strong>9.</strong> The shuttle service was adequate (transfer times and driving style).</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-number">
-                                <button id="number9-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>1</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number9-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>2</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number9-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>3</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number9-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>4</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number9-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>5</span>
-                                </button>
+                            <div id="pregunta9">
+                                <div class="js-number">
+                                    <button id="number9-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>1</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number9-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>2</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number9-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>3</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number9-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>4</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number9-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>5</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -335,30 +353,32 @@
                             <p><strong>10.</strong> The tour guides were quite informed of the subject and were willing to answer all the questions.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-number">
-                                <button id="number10-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>1</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number10-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>2</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number10-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>3</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number10-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>4</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number10-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>5</span>
-                                </button>
+                            <div id="pregunta10">
+                                <div class="js-number">
+                                    <button id="number10-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>1</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number10-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>2</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number10-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>3</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number10-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>4</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number10-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>5</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -367,30 +387,32 @@
                             <p><strong>11.</strong> The HPE team was aware of the well-being of all the attendees and was concerned about the correct conduct of all the activities.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-number">
-                                <button id="number11-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>1</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number11-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>2</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number11-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>3</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number11-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>4</span>
-                                </button>
-                            </div>
-                            <div class="js-number">
-                                <button id="number11-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
-                                    <span>5</span>
-                                </button>
+                            <div id="pregunta11">
+                                <div class="js-number">
+                                    <button id="number11-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>1</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number11-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>2</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number11-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>3</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number11-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>4</span>
+                                    </button>
+                                </div>
+                                <div class="js-number">
+                                    <button id="number11-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                        <span>5</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -399,17 +421,19 @@
                             <p><strong>12.</strong> The last trip to South Africa is better compared to other HPE incentives.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question12-1">
-                                    <input type="radio" id="question12-1" class="mdl-radio__button" name="options12" value="Si">
-                                    <span class="mdl-radio__label">Yes</span>
-                                </label>
-                            </div>
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question12-2">
-                                    <input type="radio" id="question12-2" class="mdl-radio__button" name="options12" value="No">
-                                    <span class="mdl-radio__label">No</span>
-                                </label>
+                            <div id="pregunta12">
+                                <div class="js-radio">
+                                    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question12-1">
+                                        <input type="radio" id="question12-1" class="mdl-radio__button" name="options12" value="Si">
+                                        <span class="mdl-radio__label">Yes</span>
+                                    </label>
+                                </div>
+                                <div class="js-radio">
+                                    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question12-2">
+                                        <input type="radio" id="question12-2" class="mdl-radio__button" name="options12" value="No">
+                                        <span class="mdl-radio__label">No</span>
+                                    </label>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -418,17 +442,19 @@
                             <p><strong>13.</strong> The last trip to South Africa is better than the incentives provided by other companies in the segment.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question13-1">
-                                    <input type="radio" id="question13-1" class="mdl-radio__button" name="options13" value="Si">
-                                    <span class="mdl-radio__label">Yes</span>
-                                </label>
-                            </div>
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question13-2">
-                                    <input type="radio" id="question13-2" class="mdl-radio__button" name="options13" value="No">
-                                    <span class="mdl-radio__label">No</span>
-                                </label>
+                            <div id="pregunta13">
+                                <div class="js-radio">
+                                    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question13-1">
+                                        <input type="radio" id="question13-1" class="mdl-radio__button" name="options13" value="Si">
+                                        <span class="mdl-radio__label">Yes</span>
+                                    </label>
+                                </div>
+                                <div class="js-radio">
+                                    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question13-2">
+                                        <input type="radio" id="question13-2" class="mdl-radio__button" name="options13" value="No">
+                                        <span class="mdl-radio__label">No</span>
+                                    </label>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -437,17 +463,19 @@
                             <p><strong>14.</strong> I would participate in a forthcoming incentive activity organized by HPE and Aruba</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question14-1">
-                                    <input type="radio" id="question14-1" class="mdl-radio__button" name="options14" value="Si">
-                                    <span class="mdl-radio__label">Yes</span>
-                                </label>
-                            </div>
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question14-2">
-                                    <input type="radio" id="question14-2" class="mdl-radio__button" name="options14" value="No">
-                                    <span class="mdl-radio__label">No</span>
-                                </label>
+                            <div id="pregunta14">
+                                <div class="js-radio">
+                                    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question14-1">
+                                        <input type="radio" id="question14-1" class="mdl-radio__button" name="options14" value="Si">
+                                        <span class="mdl-radio__label">Yes</span>
+                                    </label>
+                                </div>
+                                <div class="js-radio">
+                                    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question14-2">
+                                        <input type="radio" id="question14-2" class="mdl-radio__button" name="options14" value="No">
+                                        <span class="mdl-radio__label">No</span>
+                                    </label>
+                                </div>
                             </div>
                         </div>
                     </div>
