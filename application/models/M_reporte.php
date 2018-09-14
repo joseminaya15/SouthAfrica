@@ -48,4 +48,14 @@ class M_reporte extends  CI_Model{
         }
         return array('error' => EXIT_SUCCESS,'msj' => MSJ_UPT);
     }
+    function getDatosEncuesta(){
+        $sql = "SELECT e.*,
+                       n.primer_nombre,
+                       n.apellidos
+                  FROM encuesta e,
+                       negocio n
+                 WHERE e.id_negocio = n.id_negocio";
+        $result = $this->db->query($sql);
+        return $result->result();
+    }
 }

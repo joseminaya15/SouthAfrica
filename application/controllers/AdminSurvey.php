@@ -13,7 +13,37 @@ class AdminSurvey extends CI_Controller {
         $this->output->set_header('Pragma: no-cache');
     }
 	public function index(){
-		$this->load->view('v_admin_survey');
+        if($this->session->userdata('usuario') == '') {
+            header("location: Login");
+        } else {
+            $datos = $this->M_reporte->getDatosEncuesta();
+            $html  ='';
+            foreach ($datos as $key) {
+                $html .= '<tr class="">
+                              <td class="text-left">'.$key->primer_nombre.' '.$key->apellidos.'</td>
+                              <td class="text-left">'.$key->preg_1.'</td>
+                              <td class="text-left">'.$key->preg_2.'</td>
+                              <td class="text-left">'.$key->preg_3.'</td>
+                              <td class="text-left">'.$key->preg_4.'</td>
+                              <td class="text-left">'.$key->preg_5.'</td>
+                              <td class="text-left">'.$key->preg_6.'</td>
+                              <td class="text-left">'.$key->preg_7.'</td>
+                              <td class="text-left">'.$key->preg_8.'</td>
+                              <td class="text-left">'.$key->preg_9.'</td>
+                              <td class="text-left">'.$key->preg_10.'</td>
+                              <td class="text-left">'.$key->preg_11.'</td>
+                              <td class="text-left">'.$key->preg_12.'</td>
+                              <td class="text-left">'.$key->preg_13.'</td>
+                              <td class="text-left">'.$key->preg_14.'</td>
+                              <td class="text-left">'.$key->preg_15.'</td>
+                              <td class="text-left">'.$key->preg_16.'</td>
+                              <td class="text-left">'.$key->preg_17.'</td>
+                              <td class="text-left" style="display:none"></td>
+                          </tr>';
+            }
+            $data['bodyTabla'] = $html;
+            $this->load->view('v_admin_survey', $data);
+        }
 	}
     function cerrarCesion(){
         $data['error'] = EXIT_ERROR;

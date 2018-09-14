@@ -43,39 +43,28 @@
                         <thead>
                             <tr class="tr-header-reporte">
                                 <th class="text-left">Nombre</th>
-                                <th class="text-left">Empresa</th>
-                                <th class="text-left">correo</th>
-                                <th class="text-left">P&aacute;ginas en blanco</th>
-                                <th class="text-center">Foto Pasaporte</th>
-                                <th class="text-center">Foto Páginas Pasaporte</th>
-                                <th class="text-center">Fecha Registro</th>
-                                <th class="text-left" style="display: none">Cargo</th>
-                                <th class="text-center" style="display: none">Phone</th>
-                                <th class="text-left" style="display: none">Ciudad</th>
-                                <th class="text-left" style="display: none">Pa&iacute;s</th>
-                                <th class="text-center" style="display: none">Nro Pasaporte</th>
-                                <th class="text-center" style="display: none">Fecha Emisión</th>
-                                <th class="text-center" style="display: none">Fecha Expiración</th>
-                                <th class="text-left" style="display: none">País Emisor</th>
-                                <th class="text-left" style="display: none">Género</th>
-                                <th class="text-center" style="display: none">Fecha Cumpleaños</th>
-                                <th class="text-left" style="display: none">Direccion</th>
-                                <th class="text-left" style="display: none">Estado</th>
-                                <th class="text-left" style="display: none">C&oacute;digo Zip</th>
-                                <th class="text-left" style="display: none">Seguro de Viaje</th>
-                                <th class="text-left" style="display: none">Nacionalidad</th>
-                                <th class="text-left" style="display: none">Ciudad Referencia</th>
-                                <th class="text-left" style="display: none">Visa Invitation</th>
-                                <th class="text-left" style="display: none">Asiento Preferencia</th>
-                                <th class="text-left" style="display: none">Talla polo</th>
-                                <th class="text-left" style="display: none">Nombre cont. Emergencia</th>
-                                <th class="text-center" style="display: none">Teléfono emergéncia</th>
-                                <th class="text-left" style="display: none">Relación</th>
-                                <th class="text-left" style="display: none">Adicional</th>
+                                <th class="text-left">Pregunta 1</th>
+                                <th class="text-left">Pregunta 2</th>
+                                <th class="text-left">Pregunta 3</th>
+                                <th class="text-left">Pregunta 4</th>
+                                <th class="text-left">Pregunta 5</th>
+                                <th class="text-left">Pregunta 6</th>
+                                <th class="text-left">Pregunta 7</th>
+                                <th class="text-left">Pregunta 8</th>
+                                <th class="text-left">Pregunta 9</th>
+                                <th class="text-left">Pregunta 10</th>
+                                <th class="text-left">Pregunta 11</th>
+                                <th class="text-left">Pregunta 12</th>
+                                <th class="text-left">Pregunta 13</th>
+                                <th class="text-left">Pregunta 14</th>
+                                <th class="text-left">Pregunta 15</th>
+                                <th class="text-left">Pregunta 16</th>
+                                <th class="text-left">Pregunta 17</th>
+                                <th class="text-left" style="display:none"></th>
                             </tr>
                         </thead>
                         <tbody>
-                            <?php echo $html ?>
+                            <?php echo $bodyTabla ?>
                         </tbody>
                     </table>
                 </div>
@@ -135,6 +124,7 @@
                 responsive: true,
                 dom: 'Bfrtip',
                 aLengthMenu : [100],
+                "order": [ 18, 'asc' ],
                 buttons: [
                     {
                         extend:'excel',

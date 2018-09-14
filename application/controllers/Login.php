@@ -26,9 +26,15 @@ class Login extends CI_Controller {
 			$password = $this->input->post('password');
 			if($usuario == 'hpeadmin' && $password == 'admin'){
 				$session = array('usuario' => $usuario);
+				$data['location'] = 'admin';
 				$this->session->set_userdata($session);
 				$data['error'] = EXIT_SUCCESS;
-			}else {
+			}else if($usuario == 'hpesurvey' && $password == 'survey') {
+				$data['location'] = 'AdminSurvey';
+				$session = array('usuario' => $usuario);
+				$this->session->set_userdata($session);
+				$data['error'] = EXIT_SUCCESS;
+			} else {
 				$data['msj'] = 'No existe ese usuario';
 			}
         }catch(Exception $e) {
