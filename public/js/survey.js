@@ -166,7 +166,7 @@ function enviarEncuesta() {
 				$('#pregunta12').find('.js-radio').find('.is-checked').removeClass('is-checked');
 				$('#pregunta13').find('.js-radio').find('.is-checked').removeClass('is-checked');
 				$('#pregunta14').find('.js-radio').find('.is-checked').removeClass('is-checked');
-				
+				$('.mdl-textfield').removeClass('is-dirty');
 				$('#aspect').val('');
 				$('#destination').val('');
 				$('#comment').val('');
