@@ -42,6 +42,9 @@
                     <p>Your feedback is very important to us, please fill out this survey so we can improve future events.</p>
                 </div>
                 <div class="js-card__encuesta">
+                    <div class="title_survey">
+                        <h2>On a scale of 1 to 5 where 1 is totally disagree and 5 is totally agreed, how much do you agree with the following propositions?</h2>
+                    </div>
                     <div class="js-encuesta">
                         <div class="js-encuesta__title">
                             <p><strong>1.</strong> The HPE and Aruba producs included in the promo were the most suitable.</p>
@@ -415,6 +418,9 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="title_survey">
+                        <h2>Mark Yes or NO the following propositions according to your personal opinion.</h2>
                     </div>
                     <div class="js-encuesta">
                         <div class="js-encuesta__title">
