@@ -47,17 +47,30 @@
                             <p><strong>1.</strong> The HPE and Aruba producs included in the promo were the most suitable.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question1-1">
-                                    <input type="radio" id="question1-1" class="mdl-radio__button" name="options1" value="Si">
-                                    <span class="mdl-radio__label">Yes</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number1-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>1</span>
+                                </button>
                             </div>
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question1-2">
-                                    <input type="radio" id="question1-2" class="mdl-radio__button" name="options1" value="No">
-                                    <span class="mdl-radio__label">No</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number1-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>2</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number1-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>3</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number1-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>4</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number1-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>5</span>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -66,17 +79,30 @@
                             <p><strong>2.</strong> Communications about the promo (announcement, monthly rankings and winners) were clear and transmitted by the most appropriate channels.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question2-1">
-                                    <input type="radio" id="question2-1" class="mdl-radio__button" name="options2" value="Si">
-                                    <span class="mdl-radio__label">Yes</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number2-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>1</span>
+                                </button>
                             </div>
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question2-2">
-                                    <input type="radio" id="question2-2" class="mdl-radio__button" name="options2" value="No">
-                                    <span class="mdl-radio__label">No</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number2-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>2</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number2-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>3</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number2-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>4</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number2-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>5</span>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -85,17 +111,30 @@
                             <p><strong>3.</strong> There was a good pre-trip organization.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question3-1">
-                                    <input type="radio" id="question3-1" class="mdl-radio__button" name="options3" value="Si">
-                                    <span class="mdl-radio__label">Si</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number3-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>1</span>
+                                </button>
                             </div>
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question3-2">
-                                    <input type="radio" id="question3-2" class="mdl-radio__button" name="options3" value="No">
-                                    <span class="mdl-radio__label">No</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number3-2" data-number="2"  class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>2</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number3-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>3</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number3-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>4</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number3-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>5</span>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -104,17 +143,30 @@
                             <p><strong>4.</strong> There was a good organization during the trip.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question4-1">
-                                    <input type="radio" id="question4-1" class="mdl-radio__button" name="options4" value="Si">
-                                    <span class="mdl-radio__label">Si</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number4-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>1</span>
+                                </button>
                             </div>
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question4-2">
-                                    <input type="radio" id="question4-2" class="mdl-radio__button" name="options4" value="No">
-                                    <span class="mdl-radio__label">No</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number4-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>2</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number4-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>3</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number4-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>4</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number4-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>5</span>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -123,17 +175,30 @@
                             <p><strong>5.</strong> The services provided at The Cape Milner Hotel were satisfactory.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question5-1">
-                                    <input type="radio" id="question5-1" class="mdl-radio__button" name="options5" value="Si">
-                                    <span class="mdl-radio__label">Si</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number5-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>1</span>
+                                </button>
                             </div>
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question5-2">
-                                    <input type="radio" id="question5-2" class="mdl-radio__button" name="options5" value="No">
-                                    <span class="mdl-radio__label">No</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number5-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>2</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number5-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>3</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number5-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>4</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number5-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>5</span>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -142,17 +207,30 @@
                             <p><strong>6.</strong> The agenda organized during the stay at The Cape Milner Hotel fulfilled all expectations.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question6-1">
-                                    <input type="radio" id="question6-1" class="mdl-radio__button" name="options6" value="Si">
-                                    <span class="mdl-radio__label">Si</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number6-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>1</span>
+                                </button>
                             </div>
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question6-2">
-                                    <input type="radio" id="question6-2" class="mdl-radio__button" name="options6" value="No">
-                                    <span class="mdl-radio__label">No</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number6-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>2</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number6-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>3</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number6-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>4</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number6-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>5</span>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -161,17 +239,30 @@
                             <p><strong>7.</strong> The services offered at Mabula Game Lodge were satisfactory.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question7-1">
-                                    <input type="radio" id="question7-1" class="mdl-radio__button" name="options7" value="Si">
-                                    <span class="mdl-radio__label">Si</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number7-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>1</span>
+                                </button>
                             </div>
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question7-2">
-                                    <input type="radio" id="question7-2" class="mdl-radio__button" name="options7" value="No">
-                                    <span class="mdl-radio__label">No</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number7-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>2</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number7-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>3</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number7-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>4</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number7-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>5</span>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -180,17 +271,30 @@
                             <p><strong>8.</strong> The agenda organized during the stay at Mabula Game Lodge fulfilled all expectations.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question8-1">
-                                    <input type="radio" id="question8-1" class="mdl-radio__button" name="options8" value="Si">
-                                    <span class="mdl-radio__label">Si</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number8-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>1</span>
+                                </button>
                             </div>
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question8-2">
-                                    <input type="radio" id="question8-2" class="mdl-radio__button" name="options8" value="No">
-                                    <span class="mdl-radio__label">No</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number8-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>2</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number8-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>3</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number8-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>4</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number8-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>5</span>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -199,17 +303,30 @@
                             <p><strong>9.</strong> The shuttle service was adequate (transfer times and driving style).</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question9-1">
-                                    <input type="radio" id="question9-1" class="mdl-radio__button" name="options9" value="Si">
-                                    <span class="mdl-radio__label">Si</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number9-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>1</span>
+                                </button>
                             </div>
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question9-2">
-                                    <input type="radio" id="question9-2" class="mdl-radio__button" name="options9" value="No">
-                                    <span class="mdl-radio__label">No</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number9-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>2</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number9-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>3</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number9-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>4</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number9-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>5</span>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -218,17 +335,30 @@
                             <p><strong>10.</strong> The tour guides were quite informed of the subject and were willing to answer all the questions.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question10-1">
-                                    <input type="radio" id="question10-1" class="mdl-radio__button" name="options10" value="Si">
-                                    <span class="mdl-radio__label">Si</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number10-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>1</span>
+                                </button>
                             </div>
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question10-2">
-                                    <input type="radio" id="question10-2" class="mdl-radio__button" name="options10" value="No">
-                                    <span class="mdl-radio__label">No</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number10-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>2</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number10-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>3</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number10-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>4</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number10-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>5</span>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -237,17 +367,30 @@
                             <p><strong>11.</strong> The HPE team was aware of the well-being of all the attendees and was concerned about the correct conduct of all the activities.</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question11-1">
-                                    <input type="radio" id="question11-1" class="mdl-radio__button" name="options11" value="Si">
-                                    <span class="mdl-radio__label">Si</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number11-1" data-number="1" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>1</span>
+                                </button>
                             </div>
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question11-2">
-                                    <input type="radio" id="question11-2" class="mdl-radio__button" name="options11" value="No">
-                                    <span class="mdl-radio__label">No</span>
-                                </label>
+                            <div class="js-number">
+                                <button id="number11-2" data-number="2" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>2</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number11-3" data-number="3" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>3</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number11-4" data-number="4" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>4</span>
+                                </button>
+                            </div>
+                            <div class="js-number">
+                                <button id="number11-5" data-number="5" class="mdl-button mdl-js-button mdl-button--icon js-button--number" onclick="savePoint(this.id)">
+                                    <span>5</span>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -313,17 +456,9 @@
                             <p><strong>15.</strong> What aspects would you change/improve on the HPE Incentive Plan for the next few years?</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question15-1">
-                                    <input type="radio" id="question15-1" class="mdl-radio__button" name="options15" value="Si">
-                                    <span class="mdl-radio__label">Si</span>
-                                </label>
-                            </div>
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question15-2">
-                                    <input type="radio" id="question15-2" class="mdl-radio__button" name="options15" value="No">
-                                    <span class="mdl-radio__label">No</span>
-                                </label>
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                <textarea class="mdl-textfield__input" type="text" id="aspect"></textarea>
+                                <label class="mdl-textfield__label" for="aspect">Aspects</label>
                             </div>
                         </div>
                     </div>
@@ -332,17 +467,9 @@
                             <p><strong>16.</strong> Which destination would you recommend for a similar activity?</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question16-1">
-                                    <input type="radio" id="question16-1" class="mdl-radio__button" name="options16" value="Si">
-                                    <span class="mdl-radio__label">Si</span>
-                                </label>
-                            </div>
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question16-2">
-                                    <input type="radio" id="question16-2" class="mdl-radio__button" name="options16" value="No">
-                                    <span class="mdl-radio__label">No</span>
-                                </label>
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                <textarea class="mdl-textfield__input" type="text" id="destination"></textarea>
+                                <label class="mdl-textfield__label" for="destination">Destination</label>
                             </div>
                         </div>
                     </div>
@@ -351,17 +478,9 @@
                             <p><strong>17.</strong> General comments about the HPE experience</p>
                         </div>
                         <div class="js-encuesta__contenido">
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question17-1">
-                                    <input type="radio" id="question17-1" class="mdl-radio__button" name="options17" value="Si">
-                                    <span class="mdl-radio__label">Si</span>
-                                </label>
-                            </div>
-                            <div class="js-radio">
-                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question17-2">
-                                    <input type="radio" id="question17-2" class="mdl-radio__button" name="options17" value="No">
-                                    <span class="mdl-radio__label">No</span>
-                                </label>
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                <textarea class="mdl-textfield__input" type="text" id="comment"></textarea>
+                                <label class="mdl-textfield__label" for="comment">General comments</label>
                             </div>
                         </div>
                     </div>
@@ -404,5 +523,6 @@
         <script src="<?php echo RUTA_PLUGINS?>toaster/toastr.js?v=<?php echo time();?>"></script>
         <script src="<?php echo RUTA_JS?>Utils.js?v=<?php echo time();?>"></script>
         <script src="<?php echo RUTA_JS?>login.js?v=<?php echo time();?>"></script>
+        <script src="<?php echo RUTA_JS?>survey.js?v=<?php echo time();?>"></script>
     </body>
 </html>
