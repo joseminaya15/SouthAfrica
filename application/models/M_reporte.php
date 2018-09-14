@@ -34,7 +34,7 @@ class M_reporte extends  CI_Model{
     }
     function verificaUsuario($usuario){
         $sql    = "SELECT * 
-                     FROM persona
+                     FROM negocio
                     WHERE correo LIKE ?";
         $result = $this->db->query($sql, array($usuario));
         return $result->result();

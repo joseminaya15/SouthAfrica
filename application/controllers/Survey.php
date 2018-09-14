@@ -22,11 +22,12 @@ class Survey extends CI_Controller {
          try {
 			$usuario   = $this->input->post('usuario');
 			$validaUser= $this->M_reporte->verificaUsuario($usuario);
-			if( (count($validaUser) > 0) && $validaUser[0]->correo == ''){
+			$registro  = count($validaUser);
+			if ($registro > 0) {
 				$session    = array('id_negocio' => $validaUser[0]->id_negocio);
             	$this->session->set_userdata($session);
 				$data['error'] = EXIT_SUCCESS;
-			}else {
+			} else {
 				$data['msj'] = 'Este usuario no ha sido registrado';
 			}
         }catch(Exception $e) {

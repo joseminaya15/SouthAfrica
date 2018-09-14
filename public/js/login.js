@@ -5,10 +5,12 @@ function ingresar(){
 	var usuario  = $('#usuario').val();
 	var password = $('#password').val();
 	if(usuario == null){
+        toastr.remove();
 		msj('error', 'Ingrese un usuario');
 		return;
 	}
 	if(password == null){
+        toastr.remove();
 		msj('error', 'Ingrese un usuario');
 		return;
 	}
@@ -25,9 +27,10 @@ function ingresar(){
         	$('#usuario').val("");
         	$('#password').val("");
         }else {
-  				$('#usuario').parent().addClass('is-invalid');
-  				$('#password').parent().addClass('is-invalid');
-          msj('error', data.msj);
+			$('#usuario').parent().addClass('is-invalid');
+			$('#password').parent().addClass('is-invalid');
+            toastr.remove();
+            msj('error', data.msj);
         	return;
         }
       }catch(err){
@@ -116,6 +119,7 @@ function ingresarEncuesta() {
                 $('#correReserva').val("");
             }else {
                 $('#correReserva').parent().addClass('is-invalid');
+                toastr.remove();
                 msj('error', data.msj);
                 return;
             }
@@ -143,6 +147,7 @@ function enviarEncuesta() {
     var preg16 = $('#correReserva').val();
     var preg17 = $('#correReserva').val();
     if(usuario == null){
+        toastr.remove();
         msj('error', 'Ingrese un usuario');
         return;
     }
@@ -174,10 +179,12 @@ function enviarEncuesta() {
                 $('#correReserva').val("");
             }else {
                 $('#correReserva').parent().addClass('is-invalid');
+                toastr.remove();
                 msj('error', data.msj);
                 return;
             }
         }catch(err){
+            toastr.remove();
             msj('error',err.message);
         }
     });
