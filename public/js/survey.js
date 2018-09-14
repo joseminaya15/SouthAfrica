@@ -43,6 +43,91 @@ function enviarEncuesta() {
     var preg15 = $('#aspect').val();
     var preg16 = $('#destination').val();
     var preg17 = $('#comment').val();
+    if(preg1 == undefined) {
+        toastr.remove();
+        msj('error', 'Responder la pregunta 1');
+        return;
+    }
+    if(preg2 == undefined) {
+        toastr.remove();
+        msj('error', 'Responder la pregunta 2');
+        return;
+    }
+    if(preg3 == undefined) {
+        toastr.remove();
+        msj('error', 'Responder la pregunta 3');
+        return;
+    }
+    if(preg4 == undefined) {
+        toastr.remove();
+        msj('error', 'Responder la pregunta 4');
+        return;
+    }
+    if(preg5 == undefined) {
+        toastr.remove();
+        msj('error', 'Responder la pregunta 5');
+        return;
+    }
+    if(preg6 == undefined) {
+        toastr.remove();
+        msj('error', 'Responder la pregunta 6');
+        return;
+    }
+    if(preg7 == undefined) {
+        toastr.remove();
+        msj('error', 'Responder la pregunta 7');
+        return;
+    }
+    if(preg8 == undefined) {
+        toastr.remove();
+        msj('error', 'Responder la pregunta 8');
+        return;
+    }
+    if(preg9 == undefined) {
+        toastr.remove();
+        msj('error', 'Responder la pregunta 9');
+        return;
+    }
+    if(preg10 == undefined) {
+        toastr.remove();
+        msj('error', 'Responder la pregunta 10');
+        return;
+    }
+    if(preg11 == undefined) {
+        toastr.remove();
+        msj('error', 'Responder la pregunta 11');
+        return;
+    }
+    if(preg12 == undefined) {
+        toastr.remove();
+        msj('error', 'Responder la pregunta 12');
+        return;
+    }
+    if(preg13 == undefined) {
+        toastr.remove();
+        msj('error', 'Responder la pregunta 13');
+        return;
+    }
+    if(preg14 == undefined) {
+        toastr.remove();
+        msj('error', 'Responder la pregunta 14');
+        return;
+    }
+    if(preg15 == '') {
+        toastr.remove();
+        msj('error', 'Responder la pregunta 15');
+        return;
+    }
+    if(preg16 == '') {
+        toastr.remove();
+        msj('error', 'Responder la pregunta 16');
+        return;
+    }
+    if(preg17 == '') {
+        toastr.remove();
+        msj('error', 'Responder la pregunta 17');
+        return;
+    }
     $.ajax({
         data : { preg1  : preg1,
                  preg2  : preg2,
