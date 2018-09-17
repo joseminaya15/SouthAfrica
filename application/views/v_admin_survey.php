@@ -39,28 +39,28 @@
             </div>
             <div class="mdl-card">
                 <div class="table-responsive">
-                    <table id="example" class="display nowrap table table-bordered table-hover dt-responsive" cellspacing="0" width="100%">
+                    <table id="example" class="table table-bordered table-hover dt-responsive" cellspacing="0" width="100%">
                         <thead>
                             <tr class="tr-header-reporte">
-                                <th class="text-left">Nombre</th>
-                                <th class="text-left">Pregunta 1</th>
-                                <th class="text-left">Pregunta 2</th>
-                                <th class="text-left">Pregunta 3</th>
-                                <th class="text-left">Pregunta 4</th>
-                                <th class="text-left">Pregunta 5</th>
-                                <th class="text-left">Pregunta 6</th>
-                                <th class="text-left">Pregunta 7</th>
-                                <th class="text-left">Pregunta 8</th>
-                                <th class="text-left">Pregunta 9</th>
-                                <th class="text-left">Pregunta 10</th>
-                                <th class="text-left">Pregunta 11</th>
-                                <th class="text-left">Pregunta 12</th>
-                                <th class="text-left">Pregunta 13</th>
-                                <th class="text-left">Pregunta 14</th>
-                                <th class="text-left">Pregunta 15</th>
-                                <th class="text-left">Pregunta 16</th>
-                                <th class="text-left">Pregunta 17</th>
-                                <th class="text-left" style="display:none"></th>
+                                <th class="text-left max-height">Nombre</th>
+                                <th class="text-left max-height">The HPE and Aruba producs included in the promo were the most suitable.</th>
+                                <th class="text-left max-height">Communications about the promo (announcement, monthly rankings and winners) were clear and transmitted by the most appropriate channels.</th>
+                                <th class="text-left max-height">There was a good pre-trip organization.</th>
+                                <th class="text-left max-height">There was a good organization during the trip.</th>
+                                <th class="text-left max-height">The services provided at The Cape Milner Hotel were satisfactory.</th>
+                                <th class="text-left max-height">The agenda organized during the stay at The Cape Milner Hotel fulfilled all expectations.</th>
+                                <th class="text-left max-height">The services offered at Mabula Game Lodge were satisfactory.</th>
+                                <th class="text-left max-height">The agenda organized during the stay at Mabula Game Lodge fulfilled all expectations.</th>
+                                <th class="text-left max-height">The shuttle service was adequate (transfer times and driving style).</th>
+                                <th class="text-left max-height">The tour guides were quite informed of the subject and were willing to answer all the questions.</th>
+                                <th class="text-left max-height">The HPE team was aware of the well-being of all the attendees and was concerned about the correct conduct of all the activities.</th>
+                                <th class="text-left max-height">The last trip to South Africa is better compared to other HPE incentives.</th>
+                                <th class="text-left max-height">The last trip to South Africa is better than the incentives provided by other companies in the segment.</th>
+                                <th class="text-left max-height">I would participate in a forthcoming incentive activity organized by HPE and Aruba</th>
+                                <th class="text-left max-height">What aspects would you change/improve on the HPE Incentive Plan for the next few years?</th>
+                                <th class="text-left max-height">Which destination would you recommend for a similar activity?</th>
+                                <th class="text-left max-height">General comments about the HPE experience</th>
+                                <th class="text-left max-height" style="display:none"></th>
                             </tr>
                         </thead>
                         <tbody>
