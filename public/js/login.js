@@ -101,3 +101,7 @@ function openModalBlankPassport(id){
     }else { return; }
   });
 }
+
+function TriggerDescarga(){
+    $(".buttons-excel").trigger( "click" );
+}

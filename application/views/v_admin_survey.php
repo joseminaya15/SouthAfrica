@@ -34,15 +34,50 @@
     </div>
     <section id="principal" class="js-section js-section--admin">
         <div id="content" class="js-container">
-            <div class="col-xs-12 text-right p-0">
+            <div class="col-xs-6 text-left p-0">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button-logout" onclick="TriggerDescarga()">Descargar Excel</button> 
+            </div>
+            <div class="col-xs-6 text-right p-0">
                 <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button-logout" onclick="cerrarCesion()">Cerrar Sesión</button> 
             </div>
             <div class="mdl-card">
                 <div class="table-responsive">
-                    <table id="example" class="table table-bordered table-hover dt-responsive" cellspacing="0" width="100%">
+                    <table id="example" class="display nowrap table table-bordered table-hover dt-responsive" cellspacing="0" width="100%">
                         <thead>
                             <tr class="tr-header-reporte">
-                                <th class="text-left max-height">Nombre</th>
+                                <th class="text-left">Nombre</th>
+                                <th class="text-left max-height">Pregunta 1</th>
+                                <th class="text-left max-height">Pregunta 2</th>
+                                <th class="text-left max-height">Pregunta 3</th>
+                                <th class="text-left max-height">Pregunta 4</th>
+                                <th class="text-left max-height">Pregunta 5</th>
+                                <th class="text-left max-height">Pregunta 6</th>
+                                <th class="text-left max-height">Pregunta 7</th>
+                                <th class="text-left max-height">Pregunta 8</th>
+                                <th class="text-left max-height">Pregunta 9</th>
+                                <th class="text-left max-height">Pregunta 10</th>
+                                <th class="text-left max-height">Pregunta 11</th>
+                                <th class="text-left max-height">Pregunta 12</th>
+                                <th class="text-left max-height">Pregunta 13</th>
+                                <th class="text-left max-height">Pregunta 14</th>
+                                <th class="text-left max-height">Pregunta 15</th>
+                                <th class="text-left max-height">Pregunta 16</th>
+                                <th class="text-left max-height">Pregunta 17</th>
+                                <th class="text-left" style="display:none"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php echo $bodyTabla ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="mdl-card">
+                <div class="table-responsive">
+                    <table id="example2" class="display nowrap table table-bordered table-hover dt-responsive" cellspacing="0" width="100%" style="display:none">
+                        <thead>
+                            <tr class="tr-header-reporte">
+                                <th class="text-left">Nombre</th>
                                 <th class="text-left max-height">The HPE and Aruba producs included in the promo were the most suitable.</th>
                                 <th class="text-left max-height">Communications about the promo (announcement, monthly rankings and winners) were clear and transmitted by the most appropriate channels.</th>
                                 <th class="text-left max-height">There was a good pre-trip organization.</th>
@@ -60,7 +95,7 @@
                                 <th class="text-left max-height">What aspects would you change/improve on the HPE Incentive Plan for the next few years?</th>
                                 <th class="text-left max-height">Which destination would you recommend for a similar activity?</th>
                                 <th class="text-left max-height">General comments about the HPE experience</th>
-                                <th class="text-left max-height" style="display:none"></th>
+                                <th class="text-left" style="display:none"></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -121,9 +156,18 @@
         $(document).ready(function() {
             $('#example').DataTable( {
                 searching : false,
-                responsive: true,
                 dom: 'Bfrtip',
                 aLengthMenu : [100],
+                "order": [ 18, 'asc' ],
+                buttons: [],
+                language : {
+                    info : "Mostrando _TOTAL_ registros",
+                }
+            });
+            $('#example2').DataTable( {
+                searching : false,
+                responsive: true,
+                dom: 'Bfrtip',
                 "order": [ 18, 'asc' ],
                 buttons: [
                     {
@@ -136,9 +180,12 @@
                     }
                 ],
                 language : {
-                    info : "Mostrando _TOTAL_ registros",
+                    info : '',
                 }
             });
+            $('.buttons-print').css('display','none');
+            $('.buttons-excel').css('display','none');
+            $('#example2_paginate').css('display','none');
         });
     </script>
 </body>
